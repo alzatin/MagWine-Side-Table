@@ -7,7 +7,12 @@
   "ioValues": [
     {
       "name": "Side_chunk",
-      "ioValue": 15
+      "ioValue": 20,
+      "currentEquation": "30 - 10"
+    },
+    {
+      "name": "Side",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -21,15 +26,15 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.16,
+      "y": 0.36335403726708076,
       "uniqueID": "id-1038",
       "name": "Side_chunk",
       "type": "number"
     },
     {
       "atomType": "Molecule",
-      "x": 0.22413793103448276,
-      "y": 0.47988505747126436,
+      "x": 0.21744966442953018,
+      "y": 0.46583850931677023,
       "uniqueID": "id-413",
       "name": "Side piece",
       "ioValues": [
@@ -81,7 +86,7 @@
         {
           "atomType": "Input",
           "x": 0.0264,
-          "y": 0.24,
+          "y": 0.256,
           "uniqueID": "id-424",
           "name": "Side_tallest",
           "type": "number"
@@ -89,7 +94,7 @@
         {
           "atomType": "Input",
           "x": 0.0264,
-          "y": 0.32,
+          "y": 0.352,
           "uniqueID": "id-427",
           "name": "Side_thick",
           "type": "number"
@@ -483,7 +488,7 @@
             {
               "atomType": "Input",
               "x": 0.0264,
-              "y": 0.24,
+              "y": 0.256,
               "uniqueID": "id-434",
               "name": "Height",
               "type": "number"
@@ -491,7 +496,7 @@
             {
               "atomType": "Input",
               "x": 0.0264,
-              "y": 0.32,
+              "y": 0.352,
               "uniqueID": "id-435",
               "name": "Thickness",
               "type": "number"
@@ -606,7 +611,7 @@
             {
               "atomType": "Input",
               "x": 0.0264,
-              "y": 0.24,
+              "y": 0.256,
               "uniqueID": "id-605",
               "name": "Height",
               "type": "number"
@@ -614,7 +619,7 @@
             {
               "atomType": "Input",
               "x": 0.0264,
-              "y": 0.32,
+              "y": 0.352,
               "uniqueID": "id-606",
               "name": "Thickness",
               "type": "number"
@@ -1165,9 +1170,40 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.36974037600716203,
+      "y": 0.6863354037267081,
+      "uniqueID": "id-1201",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 20,
+          "currentEquation": "Side_chunk"
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0264,
+      "y": 0.4782608695652174,
+      "uniqueID": "id-1205",
+      "name": "Side",
+      "type": "number"
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-1201",
+      "ap2ID": "id-411"
+    }
+  ],
   "unitsKey": "Inches",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
