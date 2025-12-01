@@ -4,17 +4,6 @@
   "y": 0,
   "uniqueID": "id-410",
   "name": "MagWine-Side-Table",
-  "ioValues": [
-    {
-      "name": "Side_chunk",
-      "ioValue": 20,
-      "currentEquation": "30 - 10"
-    },
-    {
-      "name": "Side",
-      "ioValue": 10
-    }
-  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -22,39 +11,6 @@
       "x": 0.98,
       "y": 0.5,
       "uniqueID": "id-411"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.16,
-      "uniqueID": "id-1038",
-      "name": "Side_chunk",
-      "type": "number"
-    },
-    {
-      "atomType": "Rectangle",
-      "x": 0.45031333930170103,
-      "y": 0.3447204968944099,
-      "uniqueID": "id-1201",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 4,
-          "currentEquation": "4"
-        },
-        {
-          "name": "y length",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.40993788819875776,
-      "uniqueID": "id-1205",
-      "name": "Side",
-      "type": "number"
     },
     {
       "atomType": "Molecule",
@@ -1195,60 +1151,9 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Circle",
-      "x": 0.5470008952551477,
-      "y": 0.49689440993788814,
-      "uniqueID": "id-1376",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
-      "atomType": "Difference",
-      "x": 0.7170993733213965,
-      "y": 0.6583850931677019,
-      "uniqueID": "id-1379"
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.4861235452103849,
-      "y": 0.7422360248447205,
-      "uniqueID": "id-1383",
-      "ioValues": [
-        {
-          "name": "height",
-          "ioValue": 10
-        }
-      ]
     }
   ],
-  "allConnectors": [
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-1201",
-      "ap2ID": "id-411"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1201",
-      "ap2ID": "id-1383"
-    },
-    {
-      "ap2Name": "geometry1",
-      "ap1ID": "id-1376",
-      "ap2ID": "id-1379"
-    },
-    {
-      "ap2Name": "geometry2",
-      "ap1ID": "id-1383",
-      "ap2ID": "id-1379"
-    }
-  ],
+  "allConnectors": [],
   "unitsKey": "Inches",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
