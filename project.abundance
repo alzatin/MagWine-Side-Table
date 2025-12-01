@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "Side_chunk",
-      "ioValue": 15,
-      "currentEquation": "15"
+      "ioValue": 15
     }
   ],
   "topLevel": true,
@@ -18,6 +17,48 @@
       "x": 0.98,
       "y": 0.5,
       "uniqueID": "id-411"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0264,
+      "y": 0.16,
+      "uniqueID": "id-1038",
+      "name": "Side_chunk",
+      "type": "number"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.32413793103448274,
+      "y": 0.48275862068965514,
+      "uniqueID": "id-1041",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 15,
+          "currentEquation": "Side_chunk"
+        },
+        {
+          "name": "Side_chun",
+          "ioValue": 1
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.4627586206896552,
+      "y": 0.5775862068965517,
+      "uniqueID": "id-1045",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 15,
+          "currentEquation": "Side_chunk"
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
     },
     {
       "atomType": "Molecule",
@@ -82,7 +123,7 @@
         {
           "atomType": "Input",
           "x": 0.0264,
-          "y": 0.3416149068322981,
+          "y": 0.32,
           "uniqueID": "id-427",
           "name": "Side_thick",
           "type": "number"
@@ -1158,48 +1199,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.5683229813664596,
-      "uniqueID": "id-1038",
-      "name": "Side_chunk",
-      "type": "number"
-    },
-    {
-      "atomType": "Circle",
-      "x": 0.3194630872483222,
-      "y": 0.6801242236024845,
-      "uniqueID": "id-1041",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 7,
-          "currentEquation": "Side_chunk - 8"
-        },
-        {
-          "name": "Side",
-          "ioValue": 1
-        }
-      ]
-    },
-    {
-      "atomType": "Rectangle",
-      "x": 0.47516778523489933,
-      "y": 0.562111801242236,
-      "uniqueID": "id-1045",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 15,
-          "currentEquation": "Side_chunk"
-        },
-        {
-          "name": "y length",
-          "ioValue": 10
-        }
-      ]
     }
   ],
   "allConnectors": [],
