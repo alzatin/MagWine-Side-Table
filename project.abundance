@@ -7,18 +7,7 @@
   "ioValues": [
     {
       "name": "Side_chunk",
-      "ioValue": 15,
-      "currentEquation": "15"
-    },
-    {
-      "name": "Full_Width",
-      "ioValue": 30,
-      "currentEquation": "30"
-    },
-    {
-      "name": "thickness",
-      "ioValue": 0.75,
-      "currentEquation": ".75"
+      "ioValue": 15
     }
   ],
   "topLevel": true,
@@ -31,16 +20,16 @@
     },
     {
       "atomType": "Input",
-      "x": 0.031349999999999996,
-      "y": 0.27639751552795033,
+      "x": 0.0264,
+      "y": 0.16,
       "uniqueID": "id-1038",
       "name": "Side_chunk",
       "type": "number"
     },
     {
       "atomType": "Molecule",
-      "x": 0.23875661375661375,
-      "y": 0.19875776397515527,
+      "x": 0.19395973154362414,
+      "y": 0.34782608695652173,
       "uniqueID": "id-413",
       "name": "Side piece",
       "ioValues": [
@@ -83,24 +72,24 @@
         },
         {
           "atomType": "Input",
-          "x": 0.031349999999999996,
-          "y": 0.19,
+          "x": 0.0264,
+          "y": 0.16,
           "uniqueID": "id-421",
           "name": "Side_widest",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.031349999999999996,
-          "y": 0.304,
+          "x": 0.0264,
+          "y": 0.24,
           "uniqueID": "id-424",
           "name": "Side_tallest",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.031349999999999996,
-          "y": 0.418,
+          "x": 0.0264,
+          "y": 0.32,
           "uniqueID": "id-427",
           "name": "Side_thick",
           "type": "number"
@@ -485,24 +474,24 @@
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "id-433",
               "name": "Angle",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.304,
+              "x": 0.0264,
+              "y": 0.24,
               "uniqueID": "id-434",
               "name": "Height",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.418,
+              "x": 0.0264,
+              "y": 0.32,
               "uniqueID": "id-435",
               "name": "Thickness",
               "type": "number"
@@ -608,24 +597,24 @@
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "id-604",
               "name": "Angle",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.304,
+              "x": 0.0264,
+              "y": 0.24,
               "uniqueID": "id-605",
               "name": "Height",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.418,
+              "x": 0.0264,
+              "y": 0.32,
               "uniqueID": "id-606",
               "name": "Thickness",
               "type": "number"
@@ -681,8 +670,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.7876984126984127,
-          "y": 0.6645962732919254,
+          "x": 0.7919463087248322,
+          "y": 0.6708074534161491,
           "uniqueID": "id-663",
           "name": "Handle-hole",
           "topLevel": false,
@@ -1176,127 +1165,9 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Input",
-      "x": 0.031349999999999996,
-      "y": 0.3903975155279503,
-      "uniqueID": "id-1201",
-      "name": "Full_Width",
-      "type": "number"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.031349999999999996,
-      "y": 0.5043975155279503,
-      "uniqueID": "id-1204",
-      "name": "thickness",
-      "type": "number"
-    },
-    {
-      "atomType": "Move",
-      "x": 0.4801587301587301,
-      "y": 0.2546583850931677,
-      "uniqueID": "id-1207",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 15,
-          "currentEquation": "Full_Width/2"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.4477513227513228,
-      "y": 0.4472049689440994,
-      "uniqueID": "id-1213",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": -15,
-          "currentEquation": "-Full_Width/2"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.6640211640211641,
-      "y": 0.4440993788819876,
-      "uniqueID": "id-1219",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        }
-      ]
-    },
-    {
-      "atomType": "Molecule",
-      "x": 0.23809523809523808,
-      "y": 0.5062111801242236,
-      "uniqueID": "id-1224",
-      "name": "Molecule",
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-1226"
-        }
-      ],
-      "allConnectors": [],
-      "fileTypeVersion": 1
     }
   ],
-  "allConnectors": [
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-413",
-      "ap2ID": "id-1207"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-413",
-      "ap2ID": "id-1213"
-    },
-    {
-      "ap2Name": "Side_thick",
-      "ap1ID": "id-1204",
-      "ap2ID": "id-413"
-    },
-    {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-1207",
-      "ap2ID": "id-1219"
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-1213",
-      "ap2ID": "id-1219"
-    }
-  ],
+  "allConnectors": [],
   "unitsKey": "Inches",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
