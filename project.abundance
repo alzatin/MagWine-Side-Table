@@ -69,7 +69,8 @@
           "ioValues": [
             {
               "name": "thickness",
-              "ioValue": 10
+              "ioValue": 0.75,
+              "currentEquation": ".75"
             },
             {
               "name": "Full_width",
@@ -102,10 +103,10 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.25100671140939596,
-              "y": 0.38819875776397517,
-              "uniqueID": "id-1465",
-              "name": "Angle-cut",
+              "x": 0.2953020134228188,
+              "y": 0.2857142857142857,
+              "uniqueID": "id-1566",
+              "name": "Legtop",
               "ioValues": [
                 {
                   "name": "Full_width",
@@ -118,124 +119,112 @@
                   "atomType": "Output",
                   "x": 0.98,
                   "y": 0.5,
-                  "uniqueID": "id-1467"
+                  "uniqueID": "id-1568"
                 },
                 {
-                  "atomType": "Rotate",
-                  "x": 0.48758389261744967,
-                  "y": 0.2574534161490683,
-                  "uniqueID": "id-1469",
+                  "atomType": "Rectangle",
+                  "x": 0.2395973154362416,
+                  "y": 0.37888198757763975,
+                  "uniqueID": "id-1584",
                   "ioValues": [
                     {
-                      "name": "x-axis degrees",
-                      "ioValue": 0
-                    },
-                    {
-                      "name": "y-axis degrees",
-                      "ioValue": 0
-                    },
-                    {
-                      "name": "z-axis degrees",
-                      "ioValue": -90
-                    }
-                  ]
-                },
-                {
-                  "atomType": "Rotate",
-                  "x": 0.5124161073825503,
-                  "y": 0.5555900621118013,
-                  "uniqueID": "id-1470",
-                  "ioValues": [
-                    {
-                      "name": "x-axis degrees",
-                      "ioValue": 0
-                    },
-                    {
-                      "name": "y-axis degrees",
-                      "ioValue": 0
-                    },
-                    {
-                      "name": "z-axis degrees",
-                      "ioValue": 90
-                    }
-                  ]
-                },
-                {
-                  "atomType": "Move",
-                  "x": 0.5922818791946309,
-                  "y": 0.2108695652173913,
-                  "uniqueID": "id-1477",
-                  "ioValues": [
-                    {
-                      "name": "xDist",
-                      "ioValue": -30,
-                      "currentEquation": "-Full_width"
-                    },
-                    {
-                      "name": "yDist",
-                      "ioValue": 0
-                    },
-                    {
-                      "name": "zDist",
-                      "ioValue": 0
-                    }
-                  ]
-                },
-                {
-                  "atomType": "Move",
-                  "x": 0.6097315436241612,
-                  "y": 0.6021739130434782,
-                  "uniqueID": "id-1478",
-                  "ioValues": [
-                    {
-                      "name": "xDist",
-                      "ioValue": 30,
-                      "currentEquation": "Full_width"
-                    },
-                    {
-                      "name": "yDist",
-                      "ioValue": 0
-                    },
-                    {
-                      "name": "zDist",
-                      "ioValue": 0
-                    }
-                  ]
-                },
-                {
-                  "atomType": "Assembly",
-                  "x": 0.7224832214765101,
-                  "y": 0.43136645962732917,
-                  "uniqueID": "id-1479",
-                  "ioValues": [
-                    {
-                      "name": "Shape 1",
-                      "ioValue": null
-                    },
-                    {
-                      "name": "Shape 2",
-                      "ioValue": null
-                    }
-                  ]
-                },
-                {
-                  "atomType": "GitHubMolecule",
-                  "x": 0.24161073825503354,
-                  "y": 0.406832298136646,
-                  "uniqueID": "id-1471",
-                  "name": "Isosceles-Triangle---Angle",
-                  "ioValues": [
-                    {
-                      "name": "Angle",
-                      "ioValue": 20
-                    },
-                    {
-                      "name": "Height",
+                      "name": "x length",
                       "ioValue": 30
                     },
                     {
-                      "name": "Thickness",
+                      "name": "y length",
                       "ioValue": 10
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Difference",
+                  "x": 0.5513422818791947,
+                  "y": 0.26987577639751553,
+                  "uniqueID": "id-1585"
+                },
+                {
+                  "atomType": "Extrude",
+                  "x": 0.41644295302013423,
+                  "y": 0.2077639751552795,
+                  "uniqueID": "id-1586",
+                  "ioValues": [
+                    {
+                      "name": "height",
+                      "ioValue": 0.75
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Move",
+                  "x": 0.48624161073825506,
+                  "y": 0.6270186335403726,
+                  "uniqueID": "id-1587",
+                  "ioValues": [
+                    {
+                      "name": "xDist",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": -5
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": 0
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Difference",
+                  "x": 0.7583892617449665,
+                  "y": 0.3136645962732919,
+                  "uniqueID": "id-1588"
+                },
+                {
+                  "atomType": "Move",
+                  "x": 0.6332214765100672,
+                  "y": 0.5928571428571427,
+                  "uniqueID": "id-1589",
+                  "ioValues": [
+                    {
+                      "name": "xDist",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": 5
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": 0
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Equation",
+                  "x": 0.21778523489932888,
+                  "y": 0.763664596273292,
+                  "uniqueID": "id-1590",
+                  "name": "x - (3*2)",
+                  "ioValues": [
+                    {
+                      "name": "x",
+                      "ioValue": 30
+                    }
+                  ],
+                  "currentEquation": "x - (3*2)"
+                },
+                {
+                  "atomType": "Molecule",
+                  "x": 0.3506711409395973,
+                  "y": 0.5866459627329191,
+                  "uniqueID": "id-1570",
+                  "name": "Angle-cut",
+                  "ioValues": [
+                    {
+                      "name": "Leg_width",
+                      "ioValue": 24
                     }
                   ],
                   "topLevel": false,
@@ -244,108 +233,287 @@
                       "atomType": "Output",
                       "x": 0.98,
                       "y": 0.5,
-                      "uniqueID": "id-1472"
+                      "uniqueID": "id-1571"
                     },
                     {
-                      "atomType": "Code",
-                      "x": 0.4933862433862434,
-                      "y": 0.4608938547486033,
-                      "uniqueID": "id-1473",
+                      "atomType": "Rotate",
+                      "x": 0.48758389261744967,
+                      "y": 0.2574534161490683,
+                      "uniqueID": "id-1572",
                       "ioValues": [
                         {
-                          "name": "height",
-                          "ioValue": 30
+                          "name": "x-axis degrees",
+                          "ioValue": 0
                         },
                         {
-                          "name": "thickness",
-                          "ioValue": 10
+                          "name": "y-axis degrees",
+                          "ioValue": 0
                         },
                         {
-                          "name": "angle",
-                          "ioValue": 20
+                          "name": "z-axis degrees",
+                          "ioValue": -90
                         }
-                      ],
-                      "codeVersion": 1,
-                      "code": " \n      //Inputs:[angle, height, thickness]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n    \n      \n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(5,7)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n\n      let angleRad = angle * Math.PI / 180;\n      let base = 2 * height * Math.tan(angleRad / 2);\n\n      const triangle = replicad.draw([-base/2, 0])\n              .lineTo([base/2, 0])\n              .lineTo([0, height])\n              .close()\n              .sketchOnPlane()\n              .extrude(thickness)\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [triangle], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      return shape2\n \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
+                      ]
+                    },
+                    {
+                      "atomType": "Rotate",
+                      "x": 0.5124161073825503,
+                      "y": 0.5555900621118013,
+                      "uniqueID": "id-1573",
+                      "ioValues": [
+                        {
+                          "name": "x-axis degrees",
+                          "ioValue": 0
+                        },
+                        {
+                          "name": "y-axis degrees",
+                          "ioValue": 0
+                        },
+                        {
+                          "name": "z-axis degrees",
+                          "ioValue": 90
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Move",
+                      "x": 0.5939597315436241,
+                      "y": 0.18012422360248448,
+                      "uniqueID": "id-1574",
+                      "ioValues": [
+                        {
+                          "name": "xDist",
+                          "ioValue": -24,
+                          "currentEquation": "- Leg_width"
+                        },
+                        {
+                          "name": "yDist",
+                          "ioValue": 0
+                        },
+                        {
+                          "name": "zDist",
+                          "ioValue": 0
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Move",
+                      "x": 0.6097315436241612,
+                      "y": 0.6021739130434782,
+                      "uniqueID": "id-1575",
+                      "ioValues": [
+                        {
+                          "name": "xDist",
+                          "ioValue": 24,
+                          "currentEquation": "Leg_width"
+                        },
+                        {
+                          "name": "yDist",
+                          "ioValue": 0
+                        },
+                        {
+                          "name": "zDist",
+                          "ioValue": 0
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Assembly",
+                      "x": 0.7224832214765101,
+                      "y": 0.43136645962732917,
+                      "uniqueID": "id-1576",
+                      "ioValues": [
+                        {
+                          "name": "Shape 1",
+                          "ioValue": null
+                        },
+                        {
+                          "name": "Shape 2",
+                          "ioValue": null
+                        }
+                      ]
                     },
                     {
                       "atomType": "Input",
                       "x": 0.031349999999999996,
                       "y": 0.19,
-                      "uniqueID": "id-1474",
-                      "name": "Angle",
+                      "uniqueID": "id-1583",
+                      "name": "Leg_width",
                       "type": "number"
                     },
                     {
-                      "atomType": "Input",
-                      "x": 0.031349999999999996,
-                      "y": 0.304,
-                      "uniqueID": "id-1475",
-                      "name": "Height",
-                      "type": "number"
-                    },
-                    {
-                      "atomType": "Input",
-                      "x": 0.031349999999999996,
-                      "y": 0.418,
-                      "uniqueID": "id-1476",
-                      "name": "Thickness",
-                      "type": "number"
+                      "atomType": "GitHubMolecule",
+                      "x": 0.24161073825503354,
+                      "y": 0.406832298136646,
+                      "uniqueID": "id-1577",
+                      "name": "Isosceles-Triangle---Angle",
+                      "ioValues": [
+                        {
+                          "name": "Angle",
+                          "ioValue": 20
+                        },
+                        {
+                          "name": "Height",
+                          "ioValue": 24
+                        },
+                        {
+                          "name": "Thickness",
+                          "ioValue": 10
+                        }
+                      ],
+                      "topLevel": false,
+                      "allAtoms": [
+                        {
+                          "atomType": "Output",
+                          "x": 0.98,
+                          "y": 0.5,
+                          "uniqueID": "id-1578"
+                        },
+                        {
+                          "atomType": "Code",
+                          "x": 0.4933862433862434,
+                          "y": 0.4608938547486033,
+                          "uniqueID": "id-1579",
+                          "ioValues": [
+                            {
+                              "name": "height",
+                              "ioValue": 24
+                            },
+                            {
+                              "name": "thickness",
+                              "ioValue": 10
+                            },
+                            {
+                              "name": "angle",
+                              "ioValue": 20
+                            }
+                          ],
+                          "codeVersion": 1,
+                          "code": " \n      //Inputs:[angle, height, thickness]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n    \n      \n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(5,7)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n\n      let angleRad = angle * Math.PI / 180;\n      let base = 2 * height * Math.tan(angleRad / 2);\n\n      const triangle = replicad.draw([-base/2, 0])\n              .lineTo([base/2, 0])\n              .lineTo([0, height])\n              .close()\n              .sketchOnPlane()\n              .extrude(thickness)\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [triangle], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      return shape2\n \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
+                        },
+                        {
+                          "atomType": "Input",
+                          "x": 0.031349999999999996,
+                          "y": 0.19,
+                          "uniqueID": "id-1580",
+                          "name": "Angle",
+                          "type": "number"
+                        },
+                        {
+                          "atomType": "Input",
+                          "x": 0.031349999999999996,
+                          "y": 0.304,
+                          "uniqueID": "id-1581",
+                          "name": "Height",
+                          "type": "number"
+                        },
+                        {
+                          "atomType": "Input",
+                          "x": 0.031349999999999996,
+                          "y": 0.418,
+                          "uniqueID": "id-1582",
+                          "name": "Thickness",
+                          "type": "number"
+                        }
+                      ],
+                      "allConnectors": [
+                        {
+                          "ap2Name": "number or geometry",
+                          "ap1ID": "id-1579",
+                          "ap2ID": "id-1578"
+                        },
+                        {
+                          "ap2Name": "angle",
+                          "ap1ID": "id-1580",
+                          "ap2ID": "id-1579"
+                        },
+                        {
+                          "ap2Name": "height",
+                          "ap1ID": "id-1581",
+                          "ap2ID": "id-1579"
+                        },
+                        {
+                          "ap2Name": "thickness",
+                          "ap1ID": "id-1582",
+                          "ap2ID": "id-1579"
+                        }
+                      ],
+                      "parentRepo": {
+                        "lastFoundGit": "2025-12-01T15:47:14.795Z",
+                        "privateRepo": false,
+                        "repoName": "Isosceles-Triangle---Angle",
+                        "dateCreated": "2025-06-24T21:14:39Z",
+                        "likes": 0,
+                        "readMe": "https://raw.githubusercontent.com/BarbourSmith/Isosceles-Triangle---Angle/master/README.md?sanitize=true",
+                        "yyyy": 2025,
+                        "topMoleculeID": "011b35ba-3932-43e3-91e3-c3396d8b40a8",
+                        "githubMoleculesUsed": [],
+                        "html_url": "https://github.com/BarbourSmith/Isosceles-Triangle---Angle",
+                        "topics": [],
+                        "parentRepo": null,
+                        "forks": 0,
+                        "dateModified": "739426",
+                        "ranking": 7.2,
+                        "searchField": "isosceles-triangle---angle barboursmith a 3d isosceles triangle where the inputs are the angle of the point, the height, and the thickness ",
+                        "owner": "BarbourSmith",
+                        "description": "A 3D isosceles triangle where the inputs are the angle of the point, the height, and the thickness",
+                        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Isosceles-Triangle---Angle/master/project.abundance?sanitize=true",
+                        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Isosceles-Triangle---Angle/master/project.svg?sanitize=true",
+                        "isLocal": false
+                      },
+                      "unitsKey": "MM",
+                      "fileTypeVersion": 1
                     }
                   ],
                   "allConnectors": [
                     {
+                      "ap2Name": "geometry",
+                      "ap1ID": "id-1572",
+                      "ap2ID": "id-1574"
+                    },
+                    {
+                      "ap2Name": "geometry",
+                      "ap1ID": "id-1573",
+                      "ap2ID": "id-1575"
+                    },
+                    {
+                      "ap2Name": "Shape 1",
+                      "ap1ID": "id-1574",
+                      "ap2ID": "id-1576"
+                    },
+                    {
+                      "ap2Name": "Shape 2",
+                      "ap1ID": "id-1575",
+                      "ap2ID": "id-1576"
+                    },
+                    {
                       "ap2Name": "number or geometry",
-                      "ap1ID": "id-1473",
-                      "ap2ID": "id-1472"
+                      "ap1ID": "id-1576",
+                      "ap2ID": "id-1571"
                     },
                     {
-                      "ap2Name": "angle",
-                      "ap1ID": "id-1474",
-                      "ap2ID": "id-1473"
+                      "ap2Name": "Height",
+                      "ap1ID": "id-1583",
+                      "ap2ID": "id-1577"
                     },
                     {
-                      "ap2Name": "height",
-                      "ap1ID": "id-1475",
-                      "ap2ID": "id-1473"
+                      "ap2Name": "geometry",
+                      "ap1ID": "id-1577",
+                      "ap2ID": "id-1572"
                     },
                     {
-                      "ap2Name": "thickness",
-                      "ap1ID": "id-1476",
-                      "ap2ID": "id-1473"
+                      "ap2Name": "geometry",
+                      "ap1ID": "id-1577",
+                      "ap2ID": "id-1573"
                     }
                   ],
-                  "parentRepo": {
-                    "lastFoundGit": "2025-12-01T15:47:14.795Z",
-                    "privateRepo": false,
-                    "repoName": "Isosceles-Triangle---Angle",
-                    "dateCreated": "2025-06-24T21:14:39Z",
-                    "likes": 0,
-                    "readMe": "https://raw.githubusercontent.com/BarbourSmith/Isosceles-Triangle---Angle/master/README.md?sanitize=true",
-                    "yyyy": 2025,
-                    "topMoleculeID": "011b35ba-3932-43e3-91e3-c3396d8b40a8",
-                    "githubMoleculesUsed": [],
-                    "html_url": "https://github.com/BarbourSmith/Isosceles-Triangle---Angle",
-                    "topics": [],
-                    "parentRepo": null,
-                    "forks": 0,
-                    "dateModified": "739426",
-                    "ranking": 7.2,
-                    "searchField": "isosceles-triangle---angle barboursmith a 3d isosceles triangle where the inputs are the angle of the point, the height, and the thickness ",
-                    "owner": "BarbourSmith",
-                    "description": "A 3D isosceles triangle where the inputs are the angle of the point, the height, and the thickness",
-                    "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Isosceles-Triangle---Angle/master/project.abundance?sanitize=true",
-                    "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Isosceles-Triangle---Angle/master/project.svg?sanitize=true",
-                    "isLocal": false
-                  },
-                  "unitsKey": "MM",
                   "fileTypeVersion": 1
                 },
                 {
                   "atomType": "Input",
                   "x": 0.031349999999999996,
                   "y": 0.19,
-                  "uniqueID": "id-1531",
+                  "uniqueID": "id-1667",
                   "name": "Full_width",
                   "type": "number"
                 }
@@ -353,74 +521,68 @@
               "allConnectors": [
                 {
                   "ap2Name": "geometry",
-                  "ap1ID": "id-1469",
-                  "ap2ID": "id-1477"
+                  "ap1ID": "id-1584",
+                  "ap2ID": "id-1586"
+                },
+                {
+                  "ap2Name": "geometry1",
+                  "ap1ID": "id-1585",
+                  "ap2ID": "id-1588"
                 },
                 {
                   "ap2Name": "geometry",
-                  "ap1ID": "id-1470",
-                  "ap2ID": "id-1478"
+                  "ap1ID": "id-1585",
+                  "ap2ID": "id-1589"
                 },
                 {
-                  "ap2Name": "Shape 1",
-                  "ap1ID": "id-1477",
-                  "ap2ID": "id-1479"
+                  "ap2Name": "geometry1",
+                  "ap1ID": "id-1586",
+                  "ap2ID": "id-1585"
                 },
                 {
-                  "ap2Name": "Shape 2",
-                  "ap1ID": "id-1478",
-                  "ap2ID": "id-1479"
+                  "ap2Name": "geometry2",
+                  "ap1ID": "id-1587",
+                  "ap2ID": "id-1585"
                 },
                 {
                   "ap2Name": "number or geometry",
-                  "ap1ID": "id-1479",
-                  "ap2ID": "id-1467"
+                  "ap1ID": "id-1588",
+                  "ap2ID": "id-1568"
+                },
+                {
+                  "ap2Name": "geometry2",
+                  "ap1ID": "id-1589",
+                  "ap2ID": "id-1588"
+                },
+                {
+                  "ap2Name": "Leg_width",
+                  "ap1ID": "id-1590",
+                  "ap2ID": "id-1570"
                 },
                 {
                   "ap2Name": "geometry",
-                  "ap1ID": "id-1471",
-                  "ap2ID": "id-1469"
+                  "ap1ID": "id-1570",
+                  "ap2ID": "id-1587"
                 },
                 {
-                  "ap2Name": "geometry",
-                  "ap1ID": "id-1471",
-                  "ap2ID": "id-1470"
+                  "ap2Name": "x",
+                  "ap1ID": "id-1667",
+                  "ap2ID": "id-1590"
                 },
                 {
-                  "ap2Name": "Height",
-                  "ap1ID": "id-1531",
-                  "ap2ID": "id-1471"
+                  "ap2Name": "x length",
+                  "ap1ID": "id-1667",
+                  "ap2ID": "id-1584"
                 }
               ],
               "fileTypeVersion": 1
-            },
-            {
-              "atomType": "Rectangle",
-              "x": 0.35436241610738256,
-              "y": 0.24844720496894407,
-              "uniqueID": "id-1524",
-              "ioValues": [
-                {
-                  "name": "x length",
-                  "ioValue": 30
-                },
-                {
-                  "name": "y length",
-                  "ioValue": 10
-                }
-              ]
             }
           ],
           "allConnectors": [
             {
-              "ap2Name": "x length",
-              "ap1ID": "id-1444",
-              "ap2ID": "id-1524"
-            },
-            {
               "ap2Name": "Full_width",
               "ap1ID": "id-1444",
-              "ap2ID": "id-1465"
+              "ap2ID": "id-1566"
             }
           ],
           "fileTypeVersion": 1
