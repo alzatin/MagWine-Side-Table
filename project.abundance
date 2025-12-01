@@ -4,6 +4,13 @@
   "y": 0,
   "uniqueID": "id-410",
   "name": "MagWine-Side-Table",
+  "ioValues": [
+    {
+      "name": "Full_width",
+      "ioValue": 40,
+      "currentEquation": "40"
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -13,9 +20,30 @@
       "uniqueID": "id-411"
     },
     {
+      "atomType": "Move",
+      "x": 0.5510067114093959,
+      "y": 0.1863354037267081,
+      "uniqueID": "id-1216",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 20,
+          "currentEquation": "Full_width/2"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
       "atomType": "Molecule",
-      "x": 0.2551477170993733,
-      "y": 0.5248447204968945,
+      "x": 0.21476510067114093,
+      "y": 0.6428571428571428,
       "uniqueID": "id-1044",
       "name": "Molecule",
       "topLevel": false,
@@ -32,15 +60,14 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.26410026857654434,
-      "y": 0.3105590062111801,
+      "x": 0.26040268456375837,
+      "y": 0.24534161490683226,
       "uniqueID": "id-413",
       "name": "Side piece",
       "ioValues": [
         {
           "name": "Side_widest",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         },
         {
           "name": "Side_tallest",
@@ -1172,27 +1199,76 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Rectangle",
-      "x": 0.4404655326768129,
-      "y": 0.6832298136645962,
-      "uniqueID": "id-1211",
+      "atomType": "Assembly",
+      "x": 0.7080536912751678,
+      "y": 0.41304347826086957,
+      "uniqueID": "id-1389",
       "ioValues": [
         {
-          "name": "x length",
-          "ioValue": 10
+          "name": "Shape 1",
+          "ioValue": null
         },
         {
-          "name": "y length",
-          "ioValue": 10
+          "name": "Shape 2",
+          "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.4664429530201342,
+      "y": 0.37888198757763975,
+      "uniqueID": "id-1393",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": -20,
+          "currentEquation": "- Full_width/2"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.031349999999999996,
+      "y": 0.19,
+      "uniqueID": "id-1400",
+      "name": "Full_width",
+      "type": "number"
     }
   ],
   "allConnectors": [
     {
-      "ap2Name": "number or geometry",
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-1216",
+      "ap2ID": "id-1389"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-413",
+      "ap2ID": "id-1216"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-413",
+      "ap2ID": "id-1393"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-1389",
       "ap2ID": "id-411"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-1393",
+      "ap2ID": "id-1389"
     }
   ],
   "unitsKey": "Inches",
