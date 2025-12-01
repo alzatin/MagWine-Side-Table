@@ -14,14 +14,33 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.26320501342882724,
-      "y": 0.2701863354037267,
+      "x": 0.2551477170993733,
+      "y": 0.5248447204968945,
+      "uniqueID": "id-1044",
+      "name": "Molecule",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-1046"
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.26410026857654434,
+      "y": 0.3105590062111801,
       "uniqueID": "id-413",
       "name": "Side piece",
       "ioValues": [
         {
           "name": "Side_widest",
-          "ioValue": 20
+          "ioValue": 30,
+          "currentEquation": "30"
         },
         {
           "name": "Side_tallest",
@@ -48,7 +67,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 20
+              "ioValue": 30
             },
             {
               "name": "y length",
@@ -58,24 +77,24 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.16,
+          "x": 0.031349999999999996,
+          "y": 0.19,
           "uniqueID": "id-421",
           "name": "Side_widest",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.256,
+          "x": 0.031349999999999996,
+          "y": 0.304,
           "uniqueID": "id-424",
           "name": "Side_tallest",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.0264,
-          "y": 0.352,
+          "x": 0.031349999999999996,
+          "y": 0.418,
           "uniqueID": "id-427",
           "name": "Side_thick",
           "type": "number"
@@ -88,7 +107,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -10
+              "ioValue": -15
             },
             {
               "name": "yDist",
@@ -186,7 +205,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 20
+              "ioValue": 30
             }
           ],
           "currentEquation": "-x/2"
@@ -200,7 +219,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 20
+              "ioValue": 30
             }
           ],
           "currentEquation": "x/2"
@@ -213,7 +232,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 10
+              "ioValue": 15
             },
             {
               "name": "yDist",
@@ -268,7 +287,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 10
+              "ioValue": 15
             },
             {
               "name": "yDist",
@@ -302,7 +321,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -10
+              "ioValue": -15
             },
             {
               "name": "yDist",
@@ -343,7 +362,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 20
+              "ioValue": 30
             }
           ],
           "currentEquation": "x/2"
@@ -357,7 +376,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 20
+              "ioValue": 30
             }
           ],
           "currentEquation": "-x/2"
@@ -460,24 +479,24 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.16,
+              "x": 0.031349999999999996,
+              "y": 0.19,
               "uniqueID": "id-433",
               "name": "Angle",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.256,
+              "x": 0.031349999999999996,
+              "y": 0.304,
               "uniqueID": "id-434",
               "name": "Height",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.352,
+              "x": 0.031349999999999996,
+              "y": 0.418,
               "uniqueID": "id-435",
               "name": "Thickness",
               "type": "number"
@@ -583,24 +602,24 @@
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.16,
+              "x": 0.031349999999999996,
+              "y": 0.19,
               "uniqueID": "id-604",
               "name": "Angle",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.256,
+              "x": 0.031349999999999996,
+              "y": 0.304,
               "uniqueID": "id-605",
               "name": "Height",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.352,
+              "x": 0.031349999999999996,
+              "y": 0.418,
               "uniqueID": "id-606",
               "name": "Thickness",
               "type": "number"
@@ -1153,22 +1172,20 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Molecule",
-      "x": 0.26320501342882724,
-      "y": 0.531055900621118,
-      "uniqueID": "id-1044",
-      "name": "Molecule",
-      "topLevel": false,
-      "allAtoms": [
+      "atomType": "Rectangle",
+      "x": 0.4404655326768129,
+      "y": 0.6832298136645962,
+      "uniqueID": "id-1211",
+      "ioValues": [
         {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-1046"
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
         }
-      ],
-      "allConnectors": [],
-      "fileTypeVersion": 1
+      ]
     }
   ],
   "allConnectors": [
