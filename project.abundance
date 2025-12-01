@@ -27,40 +27,6 @@
       "type": "number"
     },
     {
-      "atomType": "Circle",
-      "x": 0.32413793103448274,
-      "y": 0.48275862068965514,
-      "uniqueID": "id-1041",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 15,
-          "currentEquation": "Side_chunk"
-        },
-        {
-          "name": "Side_chun",
-          "ioValue": 1
-        }
-      ]
-    },
-    {
-      "atomType": "Rectangle",
-      "x": 0.4627586206896552,
-      "y": 0.5775862068965517,
-      "uniqueID": "id-1045",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 15,
-          "currentEquation": "Side_chunk"
-        },
-        {
-          "name": "y length",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
       "atomType": "Molecule",
       "x": 0.19395973154362414,
       "y": 0.34782608695652173,
