@@ -90,8 +90,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7966442953020134,
-      "y": 0.5590062111801242,
+      "x": 0.8030669895076674,
+      "y": 0.5186335403726707,
       "uniqueID": "id-1971",
       "ioValues": [
         {
@@ -1306,29 +1306,17 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.7304277643260694,
-          "y": 0.2391304347826087,
+          "x": 0.6109765940274414,
+          "y": 0.45652173913043476,
           "uniqueID": "id-1966",
           "ioValues": [
             {
               "name": "Shape 1",
               "ioValue": null
-            }
-          ]
-        },
-        {
-          "atomType": "Rectangle",
-          "x": 0.3107344632768361,
-          "y": 0.48136645962732916,
-          "uniqueID": "id-1986",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 14
             },
             {
-              "name": "y length",
-              "ioValue": 30
+              "name": "Shape 2",
+              "ioValue": null
             }
           ]
         },
@@ -1350,24 +1338,6 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.20984665052461662,
-          "y": 0.5496894409937888,
-          "uniqueID": "id-2005",
-          "name": "(x/2) - y",
-          "ioValues": [
-            {
-              "name": "x",
-              "ioValue": 30
-            },
-            {
-              "name": "y",
-              "ioValue": 1
-            }
-          ],
-          "currentEquation": "(x/2) - y"
-        },
-        {
-          "atomType": "Equation",
           "x": 0.2778523489932886,
           "y": 0.19875776397515527,
           "uniqueID": "id-2009",
@@ -1383,60 +1353,6 @@
             }
           ],
           "currentEquation": "x - y"
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.36965294592413234,
-          "y": 0.5745341614906833,
-          "uniqueID": "id-2013",
-          "ioValues": [
-            {
-              "name": "height",
-              "ioValue": 0.75,
-              "currentEquation": "Thickness"
-            }
-          ]
-        },
-        {
-          "atomType": "Rotate",
-          "x": 0.43179983857949966,
-          "y": 0.8322981366459627,
-          "uniqueID": "id-2017",
-          "ioValues": [
-            {
-              "name": "x-axis degrees",
-              "ioValue": 0
-            },
-            {
-              "name": "y-axis degrees",
-              "ioValue": 10
-            },
-            {
-              "name": "z-axis degrees",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.5326876513317191,
-          "y": 0.6521739130434783,
-          "uniqueID": "id-2023",
-          "ioValues": [
-            {
-              "name": "xDist",
-              "ioValue": -7.05,
-              "currentEquation": "-7.05"
-            },
-            {
-              "name": "yDist",
-              "ioValue": 0
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
         },
         {
           "atomType": "Move",
@@ -1460,26 +1376,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.212751677852349,
-          "y": 0.8074534161490683,
-          "uniqueID": "id-1982",
-          "name": "Molecule",
-          "topLevel": false,
-          "allAtoms": [
-            {
-              "atomType": "Output",
-              "x": 0.98,
-              "y": 0.5,
-              "uniqueID": "id-1984"
-            }
-          ],
-          "allConnectors": [],
-          "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Molecule",
-          "x": 0.41646489104116224,
-          "y": 0.2204968944099379,
+          "x": 0.420500403551251,
+          "y": 0.2546583850931677,
           "uniqueID": "id-1405",
           "name": "Legs",
           "ioValues": [
@@ -2627,21 +2525,15 @@
           "fileTypeVersion": 1
         },
         {
-          "atomType": "GitHubMolecule",
-          "x": 0.6271186440677966,
-          "y": 0.577639751552795,
-          "uniqueID": "id-2961",
-          "name": "Mirror",
+          "atomType": "Molecule",
+          "x": 0.324455205811138,
+          "y": 0.6708074534161491,
+          "uniqueID": "id-3011",
+          "name": "Base",
           "ioValues": [
             {
-              "name": "Pivot",
-              "ioValue": 90,
-              "currentEquation": "90"
-            },
-            {
-              "name": "Plane",
-              "ioValue": "Y",
-              "currentEquation": "Y"
+              "name": "Full_width",
+              "ioValue": 30
             }
           ],
           "topLevel": false,
@@ -2650,120 +2542,60 @@
               "atomType": "Output",
               "x": 0.98,
               "y": 0.5,
-              "uniqueID": "id-2949"
-            },
-            {
-              "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.19,
-              "uniqueID": "id-2950",
-              "name": "Shape",
-              "type": "geometry"
-            },
-            {
-              "atomType": "Code",
-              "x": 0.5916061339790154,
-              "y": 0.5807453416149069,
-              "uniqueID": "id-2951",
-              "ioValues": [
-                {
-                  "name": "pivot",
-                  "ioValue": 90
-                },
-                {
-                  "name": "plane",
-                  "ioValue": "X"
-                }
-              ],
-              "codeVersion": 1,
-              "code": "\n      const Inputs = [\n       {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"pivot\", type: \"number\", defaultValue: 90},\n        {inputName: \"plane\", type: \"string\", defaultValue: \"X\"}\n        \n        ]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n\n      //Gets the shape from the library - no need to clone or access geometry directly\n      let importedShape = library[shape]\n\n      const newPlane = new replicad.Plane().pivot(pivot, plane)\n      console.log(importedShape)\n      let mirroredShape = importedShape.geometry[0].mirror(newPlane,(0,0,0))\n\n\n      //Wrap the raw replicad geometry in our assembly format\n      let shape2 = {\n          geometry: [mirroredShape],\n          dimension: \"3D\",\n          tags: [\"createdShape\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n    \n      return shape2\n\n      /**\n      Built-in Functions Available:\n      - Move(geometry, x, y, z) - Move a shape in 3D space\n      - Rotate(geometry, x, y, z) - Rotate a shape around X, Y, Z axes (degrees)\n      - Scale(geometry, factor) - Scale a shape by a factor\n      - Assembly([shapes]) - Combine multiple shapes into an assembly\n      - Intersect(shape1, shape2) - Boolean intersection of two shapes\n      - GetBounds(geometry) - Get the bounding box of a shape\n      - Fillet(geometry, radius) - Round edges with specified radius\n      - Chamfer(geometry, size) - Bevel edges with specified size\n\n      To Use the Code Atom, enter your inputs to the input list as an object array:\n      const Inputs = [\n        {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10}\n      ]\n\n      Access imported geometry using library[inputName] - the built-in functions handle \n      the complexity of accessing geometry arrays and maintaining metadata automatically.\n\n      Simple Example - Move a shape:\n         const Inputs = [\n          {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n          {inputName: \"x\", type: \"number\", defaultValue: 5}\n        ]\n        let movedShape = await Move(library[shape], x, 0, 0)\n        return movedShape\n      */\n      "
+              "uniqueID": "id-3013"
             },
             {
               "atomType": "Rectangle",
-              "x": 0.15577078288942697,
-              "y": 0.6583850931677019,
-              "uniqueID": "id-2952",
+              "x": 0.3607344632768361,
+              "y": 0.43136645962732917,
+              "uniqueID": "id-3015",
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 10
+                  "ioValue": 14
                 },
                 {
                   "name": "y length",
-                  "ioValue": 10
+                  "ioValue": 30
                 }
               ]
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.255044390637611,
+              "y": 0.4937888198757764,
+              "uniqueID": "id-3016",
+              "name": "(x/2) - y",
+              "ioValues": [
+                {
+                  "name": "x",
+                  "ioValue": 30
+                },
+                {
+                  "name": "y",
+                  "ioValue": 1
+                }
+              ],
+              "currentEquation": "(x/2) - y"
             },
             {
               "atomType": "Extrude",
-              "x": 0.27199354317998387,
-              "y": 0.7981366459627329,
-              "uniqueID": "id-2953",
+              "x": 0.4196529459241323,
+              "y": 0.5245341614906832,
+              "uniqueID": "id-3017",
               "ioValues": [
                 {
                   "name": "height",
-                  "ioValue": 1
+                  "ioValue": 0.75,
+                  "currentEquation": "Thickness"
                 }
               ]
-            },
-            {
-              "atomType": "Move",
-              "x": 0.40274414850686036,
-              "y": 0.7111801242236025,
-              "uniqueID": "id-2954",
-              "ioValues": [
-                {
-                  "name": "xDist",
-                  "ioValue": 0
-                },
-                {
-                  "name": "yDist",
-                  "ioValue": 10
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 0
-                }
-              ]
-            },
-            {
-              "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.304,
-              "uniqueID": "id-2955",
-              "name": "Pivot",
-              "type": "number"
-            },
-            {
-              "atomType": "Assembly",
-              "x": 0.6892655367231638,
-              "y": 0.7919254658385093,
-              "uniqueID": "id-2956",
-              "ioValues": [
-                {
-                  "name": "Shape 1",
-                  "ioValue": null
-                },
-                {
-                  "name": "Shape 3",
-                  "ioValue": null
-                }
-              ]
-            },
-            {
-              "atomType": "Readme",
-              "x": 0.8062953995157386,
-              "y": 0.7236024844720497,
-              "uniqueID": "id-2957",
-              "name": "README",
-              "readMeText": "Mirror a given shape",
-              "global": true
             },
             {
               "atomType": "Rotate",
-              "x": 0.4963680387409201,
-              "y": 0.7732919254658385,
-              "uniqueID": "id-2958",
+              "x": 0.48179983857949965,
+              "y": 0.7822981366459627,
+              "uniqueID": "id-3018",
               "ioValues": [
                 {
                   "name": "x-axis degrees",
@@ -2771,7 +2603,7 @@
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": 30
+                  "ioValue": 10
                 },
                 {
                   "name": "z-axis degrees",
@@ -2780,154 +2612,379 @@
               ]
             },
             {
-              "atomType": "Code",
-              "x": 0.4971751412429379,
-              "y": 0.32919254658385094,
-              "uniqueID": "id-2959",
+              "atomType": "Move",
+              "x": 0.5826876513317192,
+              "y": 0.6021739130434782,
+              "uniqueID": "id-3019",
               "ioValues": [
                 {
-                  "name": "pivot",
-                  "ioValue": 90
+                  "name": "xDist",
+                  "ioValue": -7.05
                 },
                 {
-                  "name": "plane",
-                  "ioValue": "Y",
-                  "currentEquation": "X"
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
                 }
-              ],
-              "codeVersion": 1,
-              "code": "\n      const Inputs = [\n       {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"pivot\", type: \"number\", defaultValue: 90},\n        {inputName: \"plane\", type: \"string\", defaultValue: \"X\"}\n        \n        ]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n\n      //Gets the shape from the library - no need to clone or access geometry directly\n      let importedShape = library[shape]\n\n      const newPlane = new replicad.Plane().pivot(pivot, plane)\n      console.log(importedShape)\n      let mirroredShape = importedShape.geometry[0].mirror(newPlane,(0,0,0))\n\n\n      //Wrap the raw replicad geometry in our assembly format\n      let shape2 = {\n          geometry: [mirroredShape],\n          dimension: \"3D\",\n          tags: [\"createdShape\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n    \n      return shape2\n\n      /**\n      Built-in Functions Available:\n      - Move(geometry, x, y, z) - Move a shape in 3D space\n      - Rotate(geometry, x, y, z) - Rotate a shape around X, Y, Z axes (degrees)\n      - Scale(geometry, factor) - Scale a shape by a factor\n      - Assembly([shapes]) - Combine multiple shapes into an assembly\n      - Intersect(shape1, shape2) - Boolean intersection of two shapes\n      - GetBounds(geometry) - Get the bounding box of a shape\n      - Fillet(geometry, radius) - Round edges with specified radius\n      - Chamfer(geometry, size) - Bevel edges with specified size\n\n      To Use the Code Atom, enter your inputs to the input list as an object array:\n      const Inputs = [\n        {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10}\n      ]\n\n      Access imported geometry using library[inputName] - the built-in functions handle \n      the complexity of accessing geometry arrays and maintaining metadata automatically.\n\n      Simple Example - Move a shape:\n         const Inputs = [\n          {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n          {inputName: \"x\", type: \"number\", defaultValue: 5}\n        ]\n        let movedShape = await Move(library[shape], x, 0, 0)\n        return movedShape\n      */\n      "
+              ]
+            },
+            {
+              "atomType": "Assembly",
+              "x": 0.7974172719935432,
+              "y": 0.422360248447205,
+              "uniqueID": "id-3033",
+              "ioValues": [
+                {
+                  "name": "Shape 1",
+                  "ioValue": null
+                },
+                {
+                  "name": "Shape 2",
+                  "ioValue": null
+                }
+              ]
             },
             {
               "atomType": "Input",
               "x": 0.031349999999999996,
-              "y": 0.418,
-              "uniqueID": "id-2960",
-              "name": "Plane",
-              "type": "string"
+              "y": 0.19,
+              "uniqueID": "id-3101",
+              "name": "Full_width",
+              "type": "number"
+            },
+            {
+              "atomType": "GitHubMolecule",
+              "x": 0.6577885391444713,
+              "y": 0.42546583850931674,
+              "uniqueID": "id-3117",
+              "name": "Mirror",
+              "ioValues": [
+                {
+                  "name": "Pivot",
+                  "ioValue": 90
+                },
+                {
+                  "name": "Plane",
+                  "ioValue": "Y",
+                  "currentEquation": "Y"
+                }
+              ],
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-3105"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.031349999999999996,
+                  "y": 0.19,
+                  "uniqueID": "id-3106",
+                  "name": "Shape",
+                  "type": "geometry"
+                },
+                {
+                  "atomType": "Code",
+                  "x": 0.5916061339790154,
+                  "y": 0.5807453416149069,
+                  "uniqueID": "id-3107",
+                  "ioValues": [
+                    {
+                      "name": "pivot",
+                      "ioValue": 90
+                    },
+                    {
+                      "name": "plane",
+                      "ioValue": "X"
+                    }
+                  ],
+                  "codeVersion": 1,
+                  "code": "\n      const Inputs = [\n       {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"pivot\", type: \"number\", defaultValue: 90},\n        {inputName: \"plane\", type: \"string\", defaultValue: \"X\"}\n        \n        ]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n\n      //Gets the shape from the library - no need to clone or access geometry directly\n      let importedShape = library[shape]\n\n      const newPlane = new replicad.Plane().pivot(pivot, plane)\n      console.log(importedShape)\n      let mirroredShape = importedShape.geometry[0].mirror(newPlane,(0,0,0))\n\n\n      //Wrap the raw replicad geometry in our assembly format\n      let shape2 = {\n          geometry: [mirroredShape],\n          dimension: \"3D\",\n          tags: [\"createdShape\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n    \n      return shape2\n\n      /**\n      Built-in Functions Available:\n      - Move(geometry, x, y, z) - Move a shape in 3D space\n      - Rotate(geometry, x, y, z) - Rotate a shape around X, Y, Z axes (degrees)\n      - Scale(geometry, factor) - Scale a shape by a factor\n      - Assembly([shapes]) - Combine multiple shapes into an assembly\n      - Intersect(shape1, shape2) - Boolean intersection of two shapes\n      - GetBounds(geometry) - Get the bounding box of a shape\n      - Fillet(geometry, radius) - Round edges with specified radius\n      - Chamfer(geometry, size) - Bevel edges with specified size\n\n      To Use the Code Atom, enter your inputs to the input list as an object array:\n      const Inputs = [\n        {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10}\n      ]\n\n      Access imported geometry using library[inputName] - the built-in functions handle \n      the complexity of accessing geometry arrays and maintaining metadata automatically.\n\n      Simple Example - Move a shape:\n         const Inputs = [\n          {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n          {inputName: \"x\", type: \"number\", defaultValue: 5}\n        ]\n        let movedShape = await Move(library[shape], x, 0, 0)\n        return movedShape\n      */\n      "
+                },
+                {
+                  "atomType": "Rectangle",
+                  "x": 0.15577078288942697,
+                  "y": 0.6583850931677019,
+                  "uniqueID": "id-3108",
+                  "ioValues": [
+                    {
+                      "name": "x length",
+                      "ioValue": 10
+                    },
+                    {
+                      "name": "y length",
+                      "ioValue": 10
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Extrude",
+                  "x": 0.27199354317998387,
+                  "y": 0.7981366459627329,
+                  "uniqueID": "id-3109",
+                  "ioValues": [
+                    {
+                      "name": "height",
+                      "ioValue": 1
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Move",
+                  "x": 0.40274414850686036,
+                  "y": 0.7111801242236025,
+                  "uniqueID": "id-3110",
+                  "ioValues": [
+                    {
+                      "name": "xDist",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": 10
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": 0
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.031349999999999996,
+                  "y": 0.304,
+                  "uniqueID": "id-3111",
+                  "name": "Pivot",
+                  "type": "number"
+                },
+                {
+                  "atomType": "Assembly",
+                  "x": 0.6892655367231638,
+                  "y": 0.7919254658385093,
+                  "uniqueID": "id-3112",
+                  "ioValues": [
+                    {
+                      "name": "Shape 1",
+                      "ioValue": null
+                    },
+                    {
+                      "name": "Shape 3",
+                      "ioValue": null
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Readme",
+                  "x": 0.8062953995157386,
+                  "y": 0.7236024844720497,
+                  "uniqueID": "id-3113",
+                  "name": "README",
+                  "readMeText": "Mirror a given shape",
+                  "global": true
+                },
+                {
+                  "atomType": "Rotate",
+                  "x": 0.4963680387409201,
+                  "y": 0.7732919254658385,
+                  "uniqueID": "id-3114",
+                  "ioValues": [
+                    {
+                      "name": "x-axis degrees",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "y-axis degrees",
+                      "ioValue": 30
+                    },
+                    {
+                      "name": "z-axis degrees",
+                      "ioValue": 0
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Code",
+                  "x": 0.4971751412429379,
+                  "y": 0.32919254658385094,
+                  "uniqueID": "id-3115",
+                  "ioValues": [
+                    {
+                      "name": "pivot",
+                      "ioValue": 90
+                    },
+                    {
+                      "name": "plane",
+                      "ioValue": "Y",
+                      "currentEquation": "X"
+                    }
+                  ],
+                  "codeVersion": 1,
+                  "code": "\n      const Inputs = [\n       {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"pivot\", type: \"number\", defaultValue: 90},\n        {inputName: \"plane\", type: \"string\", defaultValue: \"X\"}\n        \n        ]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n\n      //Gets the shape from the library - no need to clone or access geometry directly\n      let importedShape = library[shape]\n\n      const newPlane = new replicad.Plane().pivot(pivot, plane)\n      console.log(importedShape)\n      let mirroredShape = importedShape.geometry[0].mirror(newPlane,(0,0,0))\n\n\n      //Wrap the raw replicad geometry in our assembly format\n      let shape2 = {\n          geometry: [mirroredShape],\n          dimension: \"3D\",\n          tags: [\"createdShape\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n    \n      return shape2\n\n      /**\n      Built-in Functions Available:\n      - Move(geometry, x, y, z) - Move a shape in 3D space\n      - Rotate(geometry, x, y, z) - Rotate a shape around X, Y, Z axes (degrees)\n      - Scale(geometry, factor) - Scale a shape by a factor\n      - Assembly([shapes]) - Combine multiple shapes into an assembly\n      - Intersect(shape1, shape2) - Boolean intersection of two shapes\n      - GetBounds(geometry) - Get the bounding box of a shape\n      - Fillet(geometry, radius) - Round edges with specified radius\n      - Chamfer(geometry, size) - Bevel edges with specified size\n\n      To Use the Code Atom, enter your inputs to the input list as an object array:\n      const Inputs = [\n        {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10}\n      ]\n\n      Access imported geometry using library[inputName] - the built-in functions handle \n      the complexity of accessing geometry arrays and maintaining metadata automatically.\n\n      Simple Example - Move a shape:\n         const Inputs = [\n          {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n          {inputName: \"x\", type: \"number\", defaultValue: 5}\n        ]\n        let movedShape = await Move(library[shape], x, 0, 0)\n        return movedShape\n      */\n      "
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.031349999999999996,
+                  "y": 0.418,
+                  "uniqueID": "id-3116",
+                  "name": "Plane",
+                  "type": "string"
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "shape",
+                  "ap1ID": "id-3106",
+                  "ap2ID": "id-3115"
+                },
+                {
+                  "ap2Name": "Shape 1",
+                  "ap1ID": "id-3107",
+                  "ap2ID": "id-3112"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-3108",
+                  "ap2ID": "id-3109"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-3109",
+                  "ap2ID": "id-3110"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-3110",
+                  "ap2ID": "id-3114"
+                },
+                {
+                  "ap2Name": "pivot",
+                  "ap1ID": "id-3111",
+                  "ap2ID": "id-3115"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-3112",
+                  "ap2ID": "id-3113"
+                },
+                {
+                  "ap2Name": "shape",
+                  "ap1ID": "id-3114",
+                  "ap2ID": "id-3107"
+                },
+                {
+                  "ap2Name": "Shape 3",
+                  "ap1ID": "id-3114",
+                  "ap2ID": "id-3112"
+                },
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-3115",
+                  "ap2ID": "id-3105"
+                },
+                {
+                  "ap2Name": "plane",
+                  "ap1ID": "id-3116",
+                  "ap2ID": "id-3115"
+                }
+              ],
+              "parentRepo": {
+                "lastFoundGit": "2025-12-04T15:47:14.657Z",
+                "privateRepo": false,
+                "repoName": "Mirror",
+                "dateCreated": "2025-12-04T15:13:10Z",
+                "readMe": "https://raw.githubusercontent.com/alzatin/Mirror/master/README.md?sanitize=true",
+                "yyyy": 2025,
+                "topMoleculeID": "id-2031",
+                "githubMoleculesUsed": [],
+                "html_url": "https://github.com/alzatin/Mirror",
+                "topics": [
+                  "abundance-tool"
+                ],
+                "parentRepo": null,
+                "forks": 0,
+                "dateModified": "739589",
+                "ranking": 0,
+                "searchField": "mirror alzatin tool to mirror a part along an axis  abundance-tool",
+                "owner": "alzatin",
+                "description": "Tool to mirror a part along an axis ",
+                "contentURL": "https://raw.githubusercontent.com/alzatin/Mirror/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/alzatin/Mirror/master/project.svg?sanitize=true",
+                "isLocal": false
+              },
+              "unitsKey": "Unitless",
+              "fileTypeVersion": 1
             }
           ],
           "allConnectors": [
             {
-              "ap2Name": "shape",
-              "ap1ID": "id-2950",
-              "ap2ID": "id-2959"
+              "ap2Name": "geometry",
+              "ap1ID": "id-3015",
+              "ap2ID": "id-3017"
             },
             {
-              "ap2Name": "Shape 1",
-              "ap1ID": "id-2951",
-              "ap2ID": "id-2956"
+              "ap2Name": "x length",
+              "ap1ID": "id-3016",
+              "ap2ID": "id-3015"
             },
             {
               "ap2Name": "geometry",
-              "ap1ID": "id-2952",
-              "ap2ID": "id-2953"
+              "ap1ID": "id-3017",
+              "ap2ID": "id-3018"
             },
             {
               "ap2Name": "geometry",
-              "ap1ID": "id-2953",
-              "ap2ID": "id-2954"
+              "ap1ID": "id-3018",
+              "ap2ID": "id-3019"
             },
             {
-              "ap2Name": "geometry",
-              "ap1ID": "id-2954",
-              "ap2ID": "id-2958"
+              "ap2Name": "Shape 2",
+              "ap1ID": "id-3019",
+              "ap2ID": "id-3033"
             },
             {
-              "ap2Name": "pivot",
-              "ap1ID": "id-2955",
-              "ap2ID": "id-2959"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-2956",
-              "ap2ID": "id-2957"
-            },
-            {
-              "ap2Name": "shape",
-              "ap1ID": "id-2958",
-              "ap2ID": "id-2951"
-            },
-            {
-              "ap2Name": "Shape 3",
-              "ap1ID": "id-2958",
-              "ap2ID": "id-2956"
+              "ap2Name": "Shape",
+              "ap1ID": "id-3019",
+              "ap2ID": "id-3117"
             },
             {
               "ap2Name": "number or geometry",
-              "ap1ID": "id-2959",
-              "ap2ID": "id-2949"
+              "ap1ID": "id-3033",
+              "ap2ID": "id-3013"
             },
             {
-              "ap2Name": "plane",
-              "ap1ID": "id-2960",
-              "ap2ID": "id-2959"
+              "ap2Name": "x",
+              "ap1ID": "id-3101",
+              "ap2ID": "id-3016"
+            },
+            {
+              "ap2Name": "Shape 1",
+              "ap1ID": "id-3117",
+              "ap2ID": "id-3033"
             }
           ],
-          "parentRepo": {
-            "lastFoundGit": "2025-12-04T15:47:14.657Z",
-            "privateRepo": false,
-            "repoName": "Mirror",
-            "dateCreated": "2025-12-04T15:13:10Z",
-            "readMe": "https://raw.githubusercontent.com/alzatin/Mirror/master/README.md?sanitize=true",
-            "yyyy": 2025,
-            "topMoleculeID": "id-2031",
-            "githubMoleculesUsed": [],
-            "html_url": "https://github.com/alzatin/Mirror",
-            "topics": [
-              "abundance-tool"
-            ],
-            "parentRepo": null,
-            "forks": 0,
-            "dateModified": "739589",
-            "ranking": 0,
-            "searchField": "mirror alzatin tool to mirror a part along an axis  abundance-tool",
-            "owner": "alzatin",
-            "description": "Tool to mirror a part along an axis ",
-            "contentURL": "https://raw.githubusercontent.com/alzatin/Mirror/master/project.abundance?sanitize=true",
-            "svgURL": "https://raw.githubusercontent.com/alzatin/Mirror/master/project.svg?sanitize=true",
-            "isLocal": false
-          },
-          "unitsKey": "Unitless",
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Assembly",
-          "x": 0.7199354317998387,
-          "y": 0.6086956521739131,
-          "uniqueID": "id-3000",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": null
-            }
-          ]
         }
       ],
       "allConnectors": [
         {
           "ap2Name": "x",
           "ap1ID": "id-1528",
-          "ap2ID": "id-2005"
+          "ap2ID": "id-2009"
         },
         {
-          "ap2Name": "x",
+          "ap2Name": "Full_width",
           "ap1ID": "id-1528",
-          "ap2ID": "id-2009"
+          "ap2ID": "id-3011"
         },
         {
           "ap2Name": "number or geometry",
           "ap1ID": "id-1966",
           "ap2ID": "id-1046"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-1986",
-          "ap2ID": "id-2013"
         },
         {
           "ap2Name": "thickness",
@@ -2940,34 +2997,9 @@
           "ap2ID": "id-2009"
         },
         {
-          "ap2Name": "x length",
-          "ap1ID": "id-2005",
-          "ap2ID": "id-1986"
-        },
-        {
           "ap2Name": "Full_width",
           "ap1ID": "id-2009",
           "ap2ID": "id-1405"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-2013",
-          "ap2ID": "id-2017"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-2017",
-          "ap2ID": "id-2023"
-        },
-        {
-          "ap2Name": "Shape",
-          "ap1ID": "id-2023",
-          "ap2ID": "id-2961"
-        },
-        {
-          "ap2Name": "Shape 2",
-          "ap1ID": "id-2023",
-          "ap2ID": "id-3000"
         },
         {
           "ap2Name": "Shape 1",
@@ -2975,9 +3007,9 @@
           "ap2ID": "id-1966"
         },
         {
-          "ap2Name": "Shape 1",
-          "ap1ID": "id-2961",
-          "ap2ID": "id-3000"
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-3011",
+          "ap2ID": "id-1966"
         }
       ],
       "fileTypeVersion": 1
