@@ -1245,8 +1245,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.07852348993288591,
-          "y": 0.7204968944099379,
+          "x": 0.212751677852349,
+          "y": 0.8074534161490683,
           "uniqueID": "id-1982",
           "name": "Molecule",
           "topLevel": false,
@@ -1296,8 +1296,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.2040268456375839,
-          "y": 0.5372670807453416,
+          "x": 0.19798657718120805,
+          "y": 0.562111801242236,
           "uniqueID": "id-2005",
           "name": "x - y",
           "ioValues": [
@@ -1329,6 +1329,19 @@
             }
           ],
           "currentEquation": "x - y"
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.47114093959731546,
+          "y": 0.7857142857142857,
+          "uniqueID": "id-2013",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 0.75,
+              "currentEquation": "Thickness"
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -1351,6 +1364,11 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-1966",
           "ap2ID": "id-1046"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1986",
+          "ap2ID": "id-2013"
         },
         {
           "ap2Name": "thickness",
