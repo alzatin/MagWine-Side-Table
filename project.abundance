@@ -106,8 +106,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.6476510067114094,
-      "y": 0.422360248447205,
+      "x": 0.6545601291364004,
+      "y": 0.4347826086956522,
       "uniqueID": "id-1976",
       "ioValues": [
         {
@@ -116,11 +116,13 @@
         },
         {
           "name": "yDist",
-          "ioValue": -1
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
-          "ioValue": 10
+          "ioValue": 9,
+          "currentEquation": "9"
         }
       ]
     },
@@ -1274,8 +1276,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.26957223567393057,
-      "y": 0.6925465838509317,
+      "x": 0.27199354317998387,
+      "y": 0.717391304347826,
       "uniqueID": "id-1044",
       "name": "Interior",
       "ioValues": [
@@ -2975,18 +2977,18 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.31799838579499595,
-          "y": 0.7391304347826086,
+          "x": 0.3438256658595642,
+          "y": 0.7298136645962733,
           "uniqueID": "id-3364",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 20,
-              "currentEquation": "20"
+              "ioValue": 19,
+              "currentEquation": "19"
             },
             {
               "name": "y length",
-              "ioValue": 30
+              "ioValue": 28.5
             }
           ]
         },
@@ -3026,8 +3028,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.6860371267150928,
-          "y": 0.6086956521739131,
+          "x": 0.6949152542372882,
+          "y": 0.7080745341614907,
           "uniqueID": "id-3378",
           "ioValues": [
             {
@@ -3042,8 +3044,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 10.75,
-              "currentEquation": "10.75"
+              "ioValue": 10.25,
+              "currentEquation": "10.25"
             }
           ]
         },
@@ -3076,11 +3078,6 @@
           "ap2Name": "Full_width",
           "ap1ID": "id-1528",
           "ap2ID": "id-3011"
-        },
-        {
-          "ap2Name": "y length",
-          "ap1ID": "id-1528",
-          "ap2ID": "id-3364"
         },
         {
           "ap2Name": "x",
@@ -3141,6 +3138,11 @@
           "ap2Name": "Shape 3",
           "ap1ID": "id-3378",
           "ap2ID": "id-1966"
+        },
+        {
+          "ap2Name": "y length",
+          "ap1ID": "id-3385",
+          "ap2ID": "id-3364"
         }
       ],
       "fileTypeVersion": 1
