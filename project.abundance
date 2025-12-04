@@ -9,6 +9,10 @@
       "name": "Full_width",
       "ioValue": 30,
       "currentEquation": "30"
+    },
+    {
+      "name": "ply_thick",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -50,6 +54,10 @@
         {
           "name": "Full_width",
           "ioValue": 30
+        },
+        {
+          "name": "Thickness",
+          "ioValue": 10
         }
       ],
       "topLevel": false,
@@ -1224,8 +1232,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.6751677852348994,
-          "y": 0.5496894409937888,
+          "x": 0.5899328859060403,
+          "y": 0.41304347826086957,
           "uniqueID": "id-1966",
           "ioValues": [
             {
@@ -1233,6 +1241,48 @@
               "ioValue": null
             }
           ]
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.09865771812080537,
+          "y": 0.6304347826086957,
+          "uniqueID": "id-1982",
+          "name": "Molecule",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-1984"
+            }
+          ],
+          "allConnectors": [],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.2825503355704698,
+          "y": 0.5527950310559007,
+          "uniqueID": "id-1986",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.031349999999999996,
+          "y": 0.304,
+          "uniqueID": "id-1990",
+          "name": "Thickness",
+          "type": "number"
         }
       ],
       "allConnectors": [
@@ -2477,6 +2527,14 @@
           "currentEquation": "10"
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.031349999999999996,
+      "y": 0.304,
+      "uniqueID": "id-1993",
+      "name": "ply_thick",
+      "type": "number"
     }
   ],
   "allConnectors": [
@@ -2529,6 +2587,11 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-1976",
       "ap2ID": "id-1971"
+    },
+    {
+      "ap2Name": "Thickness",
+      "ap1ID": "id-1993",
+      "ap2ID": "id-1044"
     }
   ],
   "unitsKey": "Inches",
