@@ -24,8 +24,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5241610738255034,
-      "y": 0.17701863354037267,
+      "x": 0.4293785310734463,
+      "y": 0.19254658385093168,
       "uniqueID": "id-1216",
       "ioValues": [
         {
@@ -34,8 +34,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 15,
-          "currentEquation": "Full_width/2"
+          "ioValue": 14.625,
+          "currentEquation": "Full_width/2 - ply_thick/2"
         },
         {
           "name": "zDist",
@@ -45,8 +45,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.602013422818792,
-      "y": 0.17391304347826086,
+      "x": 0.6069410815173527,
+      "y": 0.19875776397515527,
       "uniqueID": "id-1389",
       "ioValues": [
         {
@@ -61,8 +61,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.40872483221476513,
-      "y": 0.406832298136646,
+      "x": 0.48426150121065376,
+      "y": 0.35714285714285715,
       "uniqueID": "id-1393",
       "ioValues": [
         {
@@ -71,8 +71,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": -15,
-          "currentEquation": "- Full_width/2"
+          "ioValue": -15.375,
+          "currentEquation": "- Full_width/2 - ply_thick/2"
         },
         {
           "name": "zDist",
@@ -106,8 +106,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.6545601291364004,
-      "y": 0.4347826086956522,
+      "x": 0.6779661016949152,
+      "y": 0.35403726708074534,
       "uniqueID": "id-1976",
       "ioValues": [
         {
@@ -3168,13 +3168,14 @@
             },
             {
               "atomType": "Rectangle",
-              "x": 0.3098870056497175,
-              "y": 0.7077639751552794,
+              "x": 0.31154156577885395,
+              "y": 0.7453416149068324,
               "uniqueID": "id-3448",
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 8
+                  "ioValue": 9,
+                  "currentEquation": "9"
                 },
                 {
                   "name": "y length",
@@ -3196,14 +3197,14 @@
             },
             {
               "atomType": "Move",
-              "x": 0.6682808716707022,
-              "y": 0.6708074534161491,
+              "x": 0.6610169491525424,
+              "y": 0.6925465838509317,
               "uniqueID": "id-3450",
               "ioValues": [
                 {
                   "name": "xDist",
-                  "ioValue": -9,
-                  "currentEquation": "-9"
+                  "ioValue": -8.5,
+                  "currentEquation": "-8.5"
                 },
                 {
                   "name": "yDist",
@@ -3226,14 +3227,14 @@
             },
             {
               "atomType": "Rectangle",
-              "x": 0.29055690072639223,
-              "y": 0.35714285714285715,
+              "x": 0.29217110573042776,
+              "y": 0.36645962732919257,
               "uniqueID": "id-3467",
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 16,
-                  "currentEquation": "16"
+                  "ioValue": 17,
+                  "currentEquation": "17"
                 },
                 {
                   "name": "y length",
@@ -3255,14 +3256,14 @@
             },
             {
               "atomType": "Move",
-              "x": 0.6319612590799031,
-              "y": 0.4161490683229814,
+              "x": 0.6246973365617433,
+              "y": 0.40372670807453415,
               "uniqueID": "id-3475",
               "ioValues": [
                 {
                   "name": "xDist",
-                  "ioValue": 4,
-                  "currentEquation": "4"
+                  "ioValue": 4.5,
+                  "currentEquation": "4.5"
                 },
                 {
                   "name": "yDist",
