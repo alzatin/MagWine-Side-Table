@@ -135,8 +135,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.26472962066182404,
-      "y": 0.24534161490683226,
+      "x": 0.26957223567393057,
+      "y": 0.2546583850931677,
       "uniqueID": "id-413",
       "name": "Side piece",
       "ioValues": [
@@ -539,11 +539,13 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": -0.375,
+              "currentEquation": "-Side_thick/2"
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             }
           ]
         },
@@ -1302,8 +1304,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.8498789346246973,
-          "y": 0.38819875776397517,
+          "x": 0.8458434221146086,
+          "y": 0.406832298136646,
           "uniqueID": "id-1966",
           "ioValues": [
             {
@@ -3847,8 +3849,8 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.27315436241610735,
-              "y": 0.391304347826087,
+              "x": 0.26957223567393057,
+              "y": 0.422360248447205,
               "uniqueID": "id-1727",
               "name": "Leg",
               "ioValues": [
@@ -4695,6 +4697,27 @@
                 }
               ],
               "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Move",
+              "x": 0.6481033091202583,
+              "y": 0.6832298136645962,
+              "uniqueID": "id-5781",
+              "ioValues": [
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 1.125,
+                  "currentEquation": "thickness*1.5"
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
             }
           ],
           "allConnectors": [
@@ -4746,12 +4769,7 @@
             {
               "ap2Name": "geometry",
               "ap1ID": "id-1925",
-              "ap2ID": "id-1939"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-1925",
-              "ap2ID": "id-1955"
+              "ap2ID": "id-5781"
             },
             {
               "ap2Name": "Shape 2",
@@ -4787,6 +4805,16 @@
               "ap2Name": "Shape 2",
               "ap1ID": "id-1727",
               "ap2ID": "id-1913"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-5781",
+              "ap2ID": "id-1939"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-5781",
+              "ap2ID": "id-1955"
             }
           ],
           "fileTypeVersion": 1
