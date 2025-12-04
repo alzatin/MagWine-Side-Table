@@ -4835,8 +4835,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.7893462469733656,
-              "y": 0.4937888198757764,
+              "x": 0.8870056497175142,
+              "y": 0.48757763975155277,
               "uniqueID": "id-5495",
               "ioValues": [
                 {
@@ -4855,8 +4855,8 @@
             },
             {
               "atomType": "Rotate",
-              "x": 0.6472962066182405,
-              "y": 0.2701863354037267,
+              "x": 0.8506860371267151,
+              "y": 0.2111801242236025,
               "uniqueID": "id-5496",
               "ioValues": [
                 {
@@ -6191,8 +6191,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.46085552865213886,
-              "y": 0.7546583850931677,
+              "x": 0.4083938660209847,
+              "y": 0.6118012422360248,
               "uniqueID": "id-5742",
               "ioValues": [
                 {
@@ -6212,8 +6212,8 @@
             },
             {
               "atomType": "Assembly",
-              "x": 0.5649717514124294,
-              "y": 0.391304347826087,
+              "x": 0.7578692493946732,
+              "y": 0.3416149068322981,
               "uniqueID": "id-5748",
               "ioValues": [
                 {
@@ -6227,13 +6227,25 @@
                 {
                   "name": "Shape 3",
                   "ioValue": null
+                },
+                {
+                  "name": "Shape 4",
+                  "ioValue": null
+                },
+                {
+                  "name": "Shape 5",
+                  "ioValue": null
+                },
+                {
+                  "name": "Shape 6",
+                  "ioValue": null
                 }
               ]
             },
             {
               "atomType": "Move",
-              "x": 0.5609362389023406,
-              "y": 0.7795031055900621,
+              "x": 0.5254237288135593,
+              "y": 0.5124223602484472,
               "uniqueID": "id-5753",
               "ioValues": [
                 {
@@ -6245,6 +6257,68 @@
                   "name": "yDist",
                   "ioValue": 0,
                   "currentEquation": "0"
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.6650524616626311,
+              "y": 0.5962732919254659,
+              "uniqueID": "id-5760",
+              "ioValues": [
+                {
+                  "name": "xDist",
+                  "ioValue": 4.25
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.5326876513317191,
+              "y": 0.7639751552795032,
+              "uniqueID": "id-5767",
+              "ioValues": [
+                {
+                  "name": "xDist",
+                  "ioValue": -4.25,
+                  "currentEquation": "-4.25"
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.6674737691686844,
+              "y": 0.8229813664596274,
+              "uniqueID": "id-5773",
+              "ioValues": [
+                {
+                  "name": "xDist",
+                  "ioValue": -4.25,
+                  "currentEquation": "-4.25"
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -6321,12 +6395,42 @@
             },
             {
               "ap2Name": "geometry",
+              "ap1ID": "id-5742",
+              "ap2ID": "id-5767"
+            },
+            {
+              "ap2Name": "geometry",
               "ap1ID": "id-5748",
               "ap2ID": "id-5496"
             },
             {
               "ap2Name": "Shape 3",
               "ap1ID": "id-5753",
+              "ap2ID": "id-5748"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-5753",
+              "ap2ID": "id-5760"
+            },
+            {
+              "ap2Name": "Shape 4",
+              "ap1ID": "id-5760",
+              "ap2ID": "id-5748"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-5767",
+              "ap2ID": "id-5773"
+            },
+            {
+              "ap2Name": "Shape 5",
+              "ap1ID": "id-5767",
+              "ap2ID": "id-5748"
+            },
+            {
+              "ap2Name": "Shape 6",
+              "ap1ID": "id-5773",
               "ap2ID": "id-5748"
             }
           ],
