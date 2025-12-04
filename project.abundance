@@ -5366,8 +5366,8 @@
                 },
                 {
                   "atomType": "ShrinkWrap",
-                  "x": 0.5076674737691687,
-                  "y": 0.5714285714285714,
+                  "x": 0.5117029862792575,
+                  "y": 0.5931677018633541,
                   "uniqueID": "id-5603",
                   "name": "Shrink Wrap",
                   "ioValues": [
@@ -5434,7 +5434,7 @@
                 {
                   "atomType": "Extrude",
                   "x": 0.735270379338176,
-                  "y": 0.49689440993788814,
+                  "y": 0.2391304347826087,
                   "uniqueID": "id-5608",
                   "ioValues": [
                     {
@@ -5453,8 +5453,8 @@
                 },
                 {
                   "atomType": "Difference",
-                  "x": 0.6238902340597255,
-                  "y": 0.2732919254658385,
+                  "x": 0.6166263115415658,
+                  "y": 0.2204968944099379,
                   "uniqueID": "id-5615"
                 },
                 {
@@ -5477,8 +5477,8 @@
                 },
                 {
                   "atomType": "Move",
-                  "x": 0.4995964487489911,
-                  "y": 0.2919254658385093,
+                  "x": 0.4987893462469733,
+                  "y": 0.32919254658385094,
                   "uniqueID": "id-5623",
                   "ioValues": [
                     {
@@ -5500,26 +5500,28 @@
                 },
                 {
                   "atomType": "GitHubMolecule",
-                  "x": 0.5552865213882163,
-                  "y": 0.7577639751552795,
+                  "x": 0.37691686844229216,
+                  "y": 0.8105590062111802,
                   "uniqueID": "id-5648",
                   "name": "Tabbed Panel",
                   "ioValues": [
                     {
                       "name": "X",
-                      "ioValue": 500
+                      "ioValue": 0.5,
+                      "currentEquation": "0.5"
                     },
                     {
                       "name": "Y",
-                      "ioValue": 200
+                      "ioValue": 10,
+                      "currentEquation": "2"
                     },
                     {
                       "name": "Tab Length",
-                      "ioValue": 10
+                      "ioValue": 0.75
                     },
                     {
                       "name": "Wood Thickness",
-                      "ioValue": 10
+                      "ioValue": 0.75
                     }
                   ],
                   "topLevel": false,
@@ -5562,11 +5564,11 @@
                       "ioValues": [
                         {
                           "name": "x length",
-                          "ioValue": 500
+                          "ioValue": 0.5
                         },
                         {
                           "name": "y length",
-                          "ioValue": 200
+                          "ioValue": 10
                         }
                       ]
                     },
@@ -5578,7 +5580,7 @@
                       "ioValues": [
                         {
                           "name": "height",
-                          "ioValue": 10
+                          "ioValue": 0.75
                         }
                       ]
                     },
@@ -5598,11 +5600,11 @@
                       "ioValues": [
                         {
                           "name": "x length",
-                          "ioValue": 520
+                          "ioValue": 2
                         },
                         {
                           "name": "y length",
-                          "ioValue": 40
+                          "ioValue": 2
                         }
                       ]
                     },
@@ -5615,11 +5617,11 @@
                       "ioValues": [
                         {
                           "name": "X",
-                          "ioValue": 500
+                          "ioValue": 0.5
                         },
                         {
                           "name": "T",
-                          "ioValue": 10
+                          "ioValue": 0.75
                         }
                       ],
                       "currentEquation": "X+2*T"
@@ -5633,7 +5635,7 @@
                       "ioValues": [
                         {
                           "name": "Y",
-                          "ioValue": 200
+                          "ioValue": 10
                         }
                       ],
                       "currentEquation": "Y/5"
@@ -5647,7 +5649,7 @@
                         {
                           "name": "Shape 2",
                           "ioValue": {
-                            "geometry": "rectangle-500-200",
+                            "geometry": "rectangle-0.5-10",
                             "dimension": "2D",
                             "plane": {
                               "origin": [
@@ -5674,7 +5676,7 @@
                         {
                           "name": "Shape 3",
                           "ioValue": {
-                            "geometry": "move-rectangle-520-40-0-40-0",
+                            "geometry": "move-rectangle-2-2-0-2-0",
                             "dimension": "2D",
                             "plane": {
                               "origin": [
@@ -5701,7 +5703,7 @@
                         {
                           "name": "Shape 4",
                           "ioValue": {
-                            "geometry": "move-rectangle-520-40-0--40-0",
+                            "geometry": "move-rectangle-2-2-0--2-0",
                             "dimension": "2D",
                             "plane": {
                               "origin": [
@@ -5740,7 +5742,7 @@
                         },
                         {
                           "name": "yDist",
-                          "ioValue": 40
+                          "ioValue": 2
                         },
                         {
                           "name": "zDist",
@@ -5760,7 +5762,7 @@
                         },
                         {
                           "name": "yDist",
-                          "ioValue": -40
+                          "ioValue": -2
                         },
                         {
                           "name": "zDist",
@@ -5777,7 +5779,7 @@
                       "ioValues": [
                         {
                           "name": "Y",
-                          "ioValue": 200
+                          "ioValue": 10
                         }
                       ],
                       "currentEquation": "Y/-5"
@@ -5900,6 +5902,66 @@
                   },
                   "unitsKey": "MM",
                   "fileTypeVersion": 1
+                },
+                {
+                  "atomType": "Assembly",
+                  "x": 0.8054882970137207,
+                  "y": 0.4782608695652174,
+                  "uniqueID": "id-5697",
+                  "ioValues": [
+                    {
+                      "name": "Shape 1",
+                      "ioValue": null
+                    },
+                    {
+                      "name": "Shape 2",
+                      "ioValue": null
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Rotate",
+                  "x": 0.5334947538337369,
+                  "y": 0.8540372670807453,
+                  "uniqueID": "id-5700",
+                  "ioValues": [
+                    {
+                      "name": "x-axis degrees",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "y-axis degrees",
+                      "ioValue": 0,
+                      "currentEquation": "0"
+                    },
+                    {
+                      "name": "z-axis degrees",
+                      "ioValue": 90,
+                      "currentEquation": "90"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Move",
+                  "x": 0.6561743341404358,
+                  "y": 0.7608695652173914,
+                  "uniqueID": "id-5706",
+                  "ioValues": [
+                    {
+                      "name": "xDist",
+                      "ioValue": 5,
+                      "currentEquation": "Div_width /2"
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": 0,
+                      "currentEquation": "0"
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": 0
+                    }
+                  ]
                 }
               ],
               "allConnectors": [
@@ -5924,14 +5986,34 @@
                   "ap2ID": "id-5594"
                 },
                 {
+                  "ap2Name": "Y",
+                  "ap1ID": "id-5600",
+                  "ap2ID": "id-5648"
+                },
+                {
                   "ap2Name": "geometry1",
                   "ap1ID": "id-5603",
                   "ap2ID": "id-5615"
                 },
                 {
+                  "ap2Name": "Shape 1",
+                  "ap1ID": "id-5608",
+                  "ap2ID": "id-5697"
+                },
+                {
                   "ap2Name": "height",
                   "ap1ID": "id-5612",
                   "ap2ID": "id-5608"
+                },
+                {
+                  "ap2Name": "Tab Length",
+                  "ap1ID": "id-5612",
+                  "ap2ID": "id-5648"
+                },
+                {
+                  "ap2Name": "Wood Thickness",
+                  "ap1ID": "id-5612",
+                  "ap2ID": "id-5648"
                 },
                 {
                   "ap2Name": "geometry",
@@ -5947,6 +6029,21 @@
                   "ap2Name": "geometry2",
                   "ap1ID": "id-5623",
                   "ap2ID": "id-5615"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-5648",
+                  "ap2ID": "id-5700"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-5700",
+                  "ap2ID": "id-5706"
+                },
+                {
+                  "ap2Name": "Shape 2",
+                  "ap1ID": "id-5706",
+                  "ap2ID": "id-5697"
                 }
               ],
               "fileTypeVersion": 1
