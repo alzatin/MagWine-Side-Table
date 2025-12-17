@@ -1614,8 +1614,8 @@
             },
             {
               "atomType": "Rectangle",
-              "x": 0.22953020134228186,
-              "y": 0.6242236024844721,
+              "x": 0.148993288590604,
+              "y": 0.6024844720496894,
               "uniqueID": "id-3448",
               "ioValues": [
                 {
@@ -1670,8 +1670,8 @@
             },
             {
               "atomType": "Rectangle",
-              "x": 0.15302013422818792,
-              "y": 0.23291925465838512,
+              "x": 0.14697986577181207,
+              "y": 0.38509316770186336,
               "uniqueID": "id-3467",
               "ioValues": [
                 {
@@ -1731,6 +1731,24 @@
                   "ioValue": null
                 }
               ]
+            },
+            {
+              "atomType": "Code",
+              "x": 0.4671140939597315,
+              "y": 0.782608695652174,
+              "uniqueID": "id-7008",
+              "ioValues": [
+                {
+                  "name": "radius",
+                  "ioValue": 5
+                },
+                {
+                  "name": "height",
+                  "ioValue": 10
+                }
+              ],
+              "codeVersion": 1,
+              "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"radius\", type: \"number\", defaultValue: 5 },\n  { inputName: \"height\", type: \"number\", defaultValue: 10 }\n];\n\nlet importedShape = library[shape];\nlet newPlane = replicad.makePlane()\nlet circDraw = replicad.drawCircle(radius)\nlet sketchCir = circDraw.sketchOnPlane(newPlane)\nlet cyl = sketchCir.extrude(height)\nlet cylObj = {\n  geometry: [cyl],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nlet assembly = await Assembly([importedShape, cylObj]);\nreturn assembly;\n"
             }
           ],
           "allConnectors": [
