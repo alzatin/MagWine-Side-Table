@@ -82,8 +82,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.031349999999999996,
-      "y": 0.19,
+      "x": 0.0264,
+      "y": 0.16,
       "uniqueID": "id-1400",
       "name": "Full_width",
       "type": "number"
@@ -126,8 +126,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.031349999999999996,
-      "y": 0.304,
+      "x": 0.0264,
+      "y": 0.256,
       "uniqueID": "id-1993",
       "name": "ply_thick",
       "type": "number"
@@ -404,24 +404,24 @@
         },
         {
           "atomType": "Input",
-          "x": 0.031349999999999996,
-          "y": 0.19,
+          "x": 0.0264,
+          "y": 0.16,
           "uniqueID": "id-421",
           "name": "Side_widest",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.031349999999999996,
-          "y": 0.304,
+          "x": 0.0264,
+          "y": 0.256,
           "uniqueID": "id-424",
           "name": "Side_tallest",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.031349999999999996,
-          "y": 0.418,
+          "x": 0.0264,
+          "y": 0.352,
           "uniqueID": "id-427",
           "name": "Side_thick",
           "type": "number"
@@ -811,24 +811,24 @@
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "id-433",
               "name": "Angle",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.304,
+              "x": 0.0264,
+              "y": 0.256,
               "uniqueID": "id-434",
               "name": "Height",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.418,
+              "x": 0.0264,
+              "y": 0.352,
               "uniqueID": "id-435",
               "name": "Thickness",
               "type": "number"
@@ -920,24 +920,24 @@
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "id-604",
               "name": "Angle",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.304,
+              "x": 0.0264,
+              "y": 0.256,
               "uniqueID": "id-605",
               "name": "Height",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.418,
+              "x": 0.0264,
+              "y": 0.352,
               "uniqueID": "id-606",
               "name": "Thickness",
               "type": "number"
@@ -1066,84 +1066,15 @@
               "ioValues": [
                 {
                   "name": "Shape 3",
-                  "ioValue": {
-                    "geometry": "move-circle-0.85--2-0-0",
-                    "dimension": "2D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 5",
-                  "ioValue": {
-                    "geometry": "move-circle-0.85-2-0-0",
-                    "dimension": "2D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 6",
-                  "ioValue": {
-                    "geometry": "move-circle-0.85-0--0.5-0",
-                    "dimension": "2D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 7",
@@ -1520,8 +1451,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.031349999999999996,
-          "y": 0.19,
+          "x": 0.0264,
+          "y": 0.16,
           "uniqueID": "id-1528",
           "name": "Full_width",
           "type": "number"
@@ -1560,8 +1491,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.031349999999999996,
-          "y": 0.304,
+          "x": 0.0264,
+          "y": 0.256,
           "uniqueID": "id-1990",
           "name": "Thickness",
           "type": "number"
@@ -1662,8 +1593,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "id-3464",
               "name": "Thickness",
               "type": "number"
@@ -1879,16 +1810,16 @@
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "id-3437",
               "name": "Full_width",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.304,
+              "x": 0.0264,
+              "y": 0.256,
               "uniqueID": "id-3440",
               "name": "Thickness",
               "type": "number"
@@ -1947,24 +1878,24 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.19,
+                  "x": 0.0264,
+                  "y": 0.16,
                   "uniqueID": "id-5357",
                   "name": "X",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.304,
+                  "x": 0.0264,
+                  "y": 0.256,
                   "uniqueID": "id-5358",
                   "name": "Y",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.418,
+                  "x": 0.0264,
+                  "y": 0.352,
                   "uniqueID": "id-5359",
                   "name": "Tab Length",
                   "type": "number"
@@ -1999,8 +1930,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.532,
+                  "x": 0.0264,
+                  "y": 0.44799999999999995,
                   "uniqueID": "id-5362",
                   "name": "Wood Thickness",
                   "type": "number"
@@ -2011,10 +1942,6 @@
                   "y": 0.8050139275766017,
                   "uniqueID": "id-5363",
                   "ioValues": [
-                    {
-                      "name": "x length",
-                      "ioValue": 30
-                    },
                     {
                       "name": "y length",
                       "ioValue": 3.8
@@ -2061,84 +1988,15 @@
                   "ioValues": [
                     {
                       "name": "Shape 2",
-                      "ioValue": {
-                        "geometry": "rectangle-28.5-19",
-                        "dimension": "2D",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 3",
-                      "ioValue": {
-                        "geometry": "move-rectangle-30-3.8-0-3.8-0",
-                        "dimension": "2D",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 4",
-                      "ioValue": {
-                        "geometry": "move-rectangle-30-3.8-0--3.8-0",
-                        "dimension": "2D",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": []
-                      }
+                      "ioValue": null
                     }
                   ],
                   "unionType": "Fusion"
@@ -2450,16 +2308,16 @@
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "id-4007",
               "name": "Full_width",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.304,
+              "x": 0.0264,
+              "y": 0.256,
               "uniqueID": "id-4008",
               "name": "Thickness",
               "type": "number"
@@ -2518,24 +2376,24 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.19,
+                  "x": 0.0264,
+                  "y": 0.16,
                   "uniqueID": "id-5425",
                   "name": "X",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.304,
+                  "x": 0.0264,
+                  "y": 0.256,
                   "uniqueID": "id-5426",
                   "name": "Y",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.418,
+                  "x": 0.0264,
+                  "y": 0.352,
                   "uniqueID": "id-5427",
                   "name": "Tab Length",
                   "type": "number"
@@ -2570,8 +2428,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.532,
+                  "x": 0.0264,
+                  "y": 0.44799999999999995,
                   "uniqueID": "id-5430",
                   "name": "Wood Thickness",
                   "type": "number"
@@ -2582,10 +2440,6 @@
                   "y": 0.8050139275766017,
                   "uniqueID": "id-5431",
                   "ioValues": [
-                    {
-                      "name": "x length",
-                      "ioValue": 30
-                    },
                     {
                       "name": "y length",
                       "ioValue": 1.4
@@ -2632,84 +2486,15 @@
                   "ioValues": [
                     {
                       "name": "Shape 2",
-                      "ioValue": {
-                        "geometry": "rectangle-28.5-7",
-                        "dimension": "2D",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 3",
-                      "ioValue": {
-                        "geometry": "move-rectangle-30-1.4-0-1.4-0",
-                        "dimension": "2D",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 4",
-                      "ioValue": {
-                        "geometry": "move-rectangle-30-1.4-0--1.4-0",
-                        "dimension": "2D",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": []
-                      }
+                      "ioValue": null
                     }
                   ],
                   "unionType": "Fusion"
@@ -3070,8 +2855,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "id-3101",
               "name": "Full_width",
               "type": "number"
@@ -3096,8 +2881,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.304,
+              "x": 0.0264,
+              "y": 0.256,
               "uniqueID": "id-3991",
               "name": "Thickness",
               "type": "number"
@@ -3209,8 +2994,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.19,
+                  "x": 0.0264,
+                  "y": 0.16,
                   "uniqueID": "id-3106",
                   "name": "Shape",
                   "type": "geometry"
@@ -3283,8 +3068,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.304,
+                  "x": 0.0264,
+                  "y": 0.256,
                   "uniqueID": "id-3111",
                   "name": "Pivot",
                   "type": "number"
@@ -3354,8 +3139,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.418,
+                  "x": 0.0264,
+                  "y": 0.352,
                   "uniqueID": "id-3116",
                   "name": "Plane",
                   "type": "string"
@@ -3479,24 +3264,24 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.19,
+                  "x": 0.0264,
+                  "y": 0.16,
                   "uniqueID": "id-4687",
                   "name": "X",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.304,
+                  "x": 0.0264,
+                  "y": 0.256,
                   "uniqueID": "id-4688",
                   "name": "Y",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.418,
+                  "x": 0.0264,
+                  "y": 0.352,
                   "uniqueID": "id-4689",
                   "name": "Tab Length",
                   "type": "number"
@@ -3531,8 +3316,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.532,
+                  "x": 0.0264,
+                  "y": 0.44799999999999995,
                   "uniqueID": "id-4692",
                   "name": "Wood Thickness",
                   "type": "number"
@@ -3541,17 +3326,7 @@
                   "atomType": "Rectangle",
                   "x": 0.5013227513227514,
                   "y": 0.8050139275766017,
-                  "uniqueID": "id-4693",
-                  "ioValues": [
-                    {
-                      "name": "x length",
-                      "ioValue": 30
-                    },
-                    {
-                      "name": "y length",
-                      "ioValue": 2.85
-                    }
-                  ]
+                  "uniqueID": "id-4693"
                 },
                 {
                   "atomType": "Equation",
@@ -3593,84 +3368,15 @@
                   "ioValues": [
                     {
                       "name": "Shape 2",
-                      "ioValue": {
-                        "geometry": "rectangle-28.5-14.25",
-                        "dimension": "2D",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 3",
-                      "ioValue": {
-                        "geometry": "move-rectangle-30-2.85-0-2.85-0",
-                        "dimension": "2D",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 4",
-                      "ioValue": {
-                        "geometry": "move-rectangle-30-2.85-0--2.85-0",
-                        "dimension": "2D",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": []
-                      }
+                      "ioValue": null
                     }
                   ],
                   "unionType": "Fusion"
@@ -3684,10 +3390,6 @@
                     {
                       "name": "xDist",
                       "ioValue": 0
-                    },
-                    {
-                      "name": "yDist",
-                      "ioValue": 2.85
                     },
                     {
                       "name": "zDist",
@@ -3704,10 +3406,6 @@
                     {
                       "name": "xDist",
                       "ioValue": 0
-                    },
-                    {
-                      "name": "yDist",
-                      "ioValue": -2.85
                     },
                     {
                       "name": "zDist",
@@ -3906,8 +3604,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.19,
+                  "x": 0.0264,
+                  "y": 0.16,
                   "uniqueID": "id-5792",
                   "name": "Div_width",
                   "type": "number"
@@ -3921,57 +3619,11 @@
                   "ioValues": [
                     {
                       "name": "Shape 1",
-                      "ioValue": {
-                        "geometry": "circle-1.5",
-                        "dimension": "2D",
-                        "tags": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 2",
-                      "ioValue": {
-                        "geometry": "move-circle-1.5-24-0-0",
-                        "dimension": "2D",
-                        "tags": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 3",
@@ -3993,8 +3645,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.304,
+                  "x": 0.0264,
+                  "y": 0.256,
                   "uniqueID": "id-5795",
                   "name": "Thickness",
                   "type": "number"
@@ -4130,59 +3782,11 @@
                   "ioValues": [
                     {
                       "name": "Shape 1",
-                      "ioValue": {
-                        "geometry": "move-cut-move-rotate-extrude-fuse-fuse-move-rectangle-2-4.8-0-4.8-0-rectangle-0.5-24-move-rectangle-2-4.8-0--4.8-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-0-0-90-12--2-0-extrude-move-rectangle-27-2-12--1-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-2.25-0",
-                        "tags": [],
-                        "bom": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "dimension": "3D"
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 3",
-                      "ioValue": {
-                        "geometry": "extrude-cut-shrinkWrap-fuse-circle-1.5-move-circle-1.5-24-0-0-50-move-rectangle-27-2-12--1-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75",
-                        "dimension": "3D",
-                        "tags": [],
-                        "color": "#aad7f2",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "bom": [
-                          []
-                        ]
-                      }
+                      "ioValue": null
                     }
                   ],
                   "unionType": "Fusion"
@@ -4241,24 +3845,24 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.031349999999999996,
-                      "y": 0.19,
+                      "x": 0.0264,
+                      "y": 0.16,
                       "uniqueID": "id-5801",
                       "name": "X",
                       "type": "number"
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.031349999999999996,
-                      "y": 0.304,
+                      "x": 0.0264,
+                      "y": 0.256,
                       "uniqueID": "id-5802",
                       "name": "Y",
                       "type": "number"
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.031349999999999996,
-                      "y": 0.418,
+                      "x": 0.0264,
+                      "y": 0.352,
                       "uniqueID": "id-5803",
                       "name": "Tab Length",
                       "type": "number"
@@ -4293,8 +3897,8 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.031349999999999996,
-                      "y": 0.532,
+                      "x": 0.0264,
+                      "y": 0.44799999999999995,
                       "uniqueID": "id-5806",
                       "name": "Wood Thickness",
                       "type": "number"
@@ -4355,84 +3959,15 @@
                       "ioValues": [
                         {
                           "name": "Shape 2",
-                          "ioValue": {
-                            "geometry": "rectangle-0.5-24",
-                            "dimension": "2D",
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "tags": [],
-                            "bom": []
-                          }
+                          "ioValue": null
                         },
                         {
                           "name": "Shape 3",
-                          "ioValue": {
-                            "geometry": "move-rectangle-2-4.8-0-4.8-0",
-                            "dimension": "2D",
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "tags": [],
-                            "bom": []
-                          }
+                          "ioValue": null
                         },
                         {
                           "name": "Shape 4",
-                          "ioValue": {
-                            "geometry": "move-rectangle-2-4.8-0--4.8-0",
-                            "dimension": "2D",
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "tags": [],
-                            "bom": []
-                          }
+                          "ioValue": null
                         }
                       ],
                       "unionType": "Fusion"
@@ -4924,16 +4459,16 @@
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "id-5521",
               "name": "Full_width",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.304,
+              "x": 0.0264,
+              "y": 0.256,
               "uniqueID": "id-5524",
               "name": "Thickness",
               "type": "number"
@@ -5104,24 +4639,24 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.19,
+                  "x": 0.0264,
+                  "y": 0.16,
                   "uniqueID": "id-5530",
                   "name": "X",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.304,
+                  "x": 0.0264,
+                  "y": 0.256,
                   "uniqueID": "id-5531",
                   "name": "Y",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.418,
+                  "x": 0.0264,
+                  "y": 0.352,
                   "uniqueID": "id-5532",
                   "name": "Tab Length",
                   "type": "number"
@@ -5156,8 +4691,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.532,
+                  "x": 0.0264,
+                  "y": 0.44799999999999995,
                   "uniqueID": "id-5535",
                   "name": "Wood Thickness",
                   "type": "number"
@@ -5168,10 +4703,6 @@
                   "y": 0.8050139275766017,
                   "uniqueID": "id-5536",
                   "ioValues": [
-                    {
-                      "name": "x length",
-                      "ioValue": 30
-                    },
                     {
                       "name": "y length",
                       "ioValue": 3.6
@@ -5218,84 +4749,15 @@
                   "ioValues": [
                     {
                       "name": "Shape 2",
-                      "ioValue": {
-                        "geometry": "rectangle-28.5-18",
-                        "dimension": "2D",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 3",
-                      "ioValue": {
-                        "geometry": "move-rectangle-30-3.6-0-3.6-0",
-                        "dimension": "2D",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 4",
-                      "ioValue": {
-                        "geometry": "move-rectangle-30-3.6-0--3.6-0",
-                        "dimension": "2D",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": []
-                      }
+                      "ioValue": null
                     }
                   ],
                   "unionType": "Fusion"
@@ -5531,8 +4993,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.19,
+                  "x": 0.0264,
+                  "y": 0.16,
                   "uniqueID": "id-5600",
                   "name": "Div_width",
                   "type": "number"
@@ -5546,57 +5008,11 @@
                   "ioValues": [
                     {
                       "name": "Shape 1",
-                      "ioValue": {
-                        "geometry": "circle-1.5",
-                        "dimension": "2D",
-                        "tags": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 2",
-                      "ioValue": {
-                        "geometry": "move-circle-1.5-12-0-0",
-                        "dimension": "2D",
-                        "tags": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 3",
@@ -5618,8 +5034,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.304,
+                  "x": 0.0264,
+                  "y": 0.256,
                   "uniqueID": "id-5612",
                   "name": "Thickness",
                   "type": "number"
@@ -5755,59 +5171,11 @@
                   "ioValues": [
                     {
                       "name": "Shape 1",
-                      "ioValue": {
-                        "geometry": "move-cut-move-rotate-extrude-fuse-fuse-move-rectangle-2-2.4-0-2.4-0-rectangle-0.5-12-move-rectangle-2-2.4-0--2.4-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-0-0-90-6--2-0-extrude-move-rectangle-15-2-6--1-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-2.25-0",
-                        "tags": [],
-                        "bom": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "dimension": "3D"
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 3",
-                      "ioValue": {
-                        "geometry": "extrude-cut-shrinkWrap-fuse-circle-1.5-move-circle-1.5-12-0-0-50-move-rectangle-15-2-6--1-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75",
-                        "dimension": "3D",
-                        "tags": [],
-                        "color": "#aad7f2",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "bom": [
-                          []
-                        ]
-                      }
+                      "ioValue": null
                     }
                   ],
                   "unionType": "Fusion"
@@ -5866,24 +5234,24 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.031349999999999996,
-                      "y": 0.19,
+                      "x": 0.0264,
+                      "y": 0.16,
                       "uniqueID": "id-5635",
                       "name": "X",
                       "type": "number"
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.031349999999999996,
-                      "y": 0.304,
+                      "x": 0.0264,
+                      "y": 0.256,
                       "uniqueID": "id-5636",
                       "name": "Y",
                       "type": "number"
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.031349999999999996,
-                      "y": 0.418,
+                      "x": 0.0264,
+                      "y": 0.352,
                       "uniqueID": "id-5637",
                       "name": "Tab Length",
                       "type": "number"
@@ -5918,8 +5286,8 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.031349999999999996,
-                      "y": 0.532,
+                      "x": 0.0264,
+                      "y": 0.44799999999999995,
                       "uniqueID": "id-5640",
                       "name": "Wood Thickness",
                       "type": "number"
@@ -5980,84 +5348,15 @@
                       "ioValues": [
                         {
                           "name": "Shape 2",
-                          "ioValue": {
-                            "geometry": "rectangle-0.5-12",
-                            "dimension": "2D",
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "tags": [],
-                            "bom": []
-                          }
+                          "ioValue": null
                         },
                         {
                           "name": "Shape 3",
-                          "ioValue": {
-                            "geometry": "move-rectangle-2-2.4-0-2.4-0",
-                            "dimension": "2D",
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "tags": [],
-                            "bom": []
-                          }
+                          "ioValue": null
                         },
                         {
                           "name": "Shape 4",
-                          "ioValue": {
-                            "geometry": "move-rectangle-2-2.4-0--2.4-0",
-                            "dimension": "2D",
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "tags": [],
-                            "bom": []
-                          }
+                          "ioValue": null
                         }
                       ],
                       "unionType": "Fusion"
@@ -6486,16 +5785,16 @@
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "id-1409",
               "name": "thickness",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.304,
+              "x": 0.0264,
+              "y": 0.256,
               "uniqueID": "id-1444",
               "name": "Full_width",
               "type": "number"
@@ -6591,10 +5890,6 @@
                   "ioValue": 0
                 },
                 {
-                  "name": "yDist",
-                  "ioValue": -11
-                },
-                {
                   "name": "zDist",
                   "ioValue": 0
                 }
@@ -6637,10 +5932,6 @@
                 {
                   "name": "xDist",
                   "ioValue": 0
-                },
-                {
-                  "name": "yDist",
-                  "ioValue": 11
                 },
                 {
                   "name": "zDist",
@@ -6786,84 +6077,15 @@
                   "ioValues": [
                     {
                       "name": "Shape 1",
-                      "ioValue": {
-                        "geometry": "cut-cut-cut-extrude-rectangle-28-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-move-cut-move-rotate-4a078758-28-10-20-0-0-0--90--28-0-0-move-rotate-4a078758-28-10-20-0-0-0-90-28-0-0-0--5-0-move-move-rotate-4a078758-28-10-20-0-0-0-90-28-0-0-0--5-0-move-cut-cut-extrude-rectangle-28-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-move-cut-move-rotate-4a078758-28-10-20-0-0-0--90--28-0-0-move-rotate-4a078758-28-10-20-0-0-0-90-28-0-0-0--5-0-move-move-rotate-4a078758-28-10-20-0-0-0-90-28-0-0-0--5-0-0-3-0",
-                        "dimension": "3D",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 2",
-                      "ioValue": {
-                        "geometry": "move-rotate-extrude-rectangle-3-8-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-0-0--20--14--3.6-0",
-                        "dimension": "3D",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 3",
-                      "ioValue": {
-                        "geometry": "move-rotate-extrude-rectangle-3-8-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-0-0-20-14--3.6-0",
-                        "dimension": "3D",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": []
-                      }
+                      "ioValue": null
                     }
                   ],
                   "unionType": "Fusion"
@@ -6966,16 +6188,16 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.19,
+                  "x": 0.0264,
+                  "y": 0.16,
                   "uniqueID": "id-1897",
                   "name": "thickness",
                   "type": "number"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.304,
+                  "x": 0.0264,
+                  "y": 0.256,
                   "uniqueID": "id-1900",
                   "name": "Full_width",
                   "type": "number"
@@ -7096,8 +6318,8 @@
                     },
                     {
                       "atomType": "Input",
-                      "x": 0.031349999999999996,
-                      "y": 0.19,
+                      "x": 0.0264,
+                      "y": 0.16,
                       "uniqueID": "id-1754",
                       "name": "Full_width",
                       "type": "number"
@@ -7108,12 +6330,6 @@
                       "y": 0.5993788819875777,
                       "uniqueID": "id-1740",
                       "name": "Angle-cut",
-                      "ioValues": [
-                        {
-                          "name": "Leg_width",
-                          "ioValue": 28
-                        }
-                      ],
                       "topLevel": false,
                       "allAtoms": [
                         {
@@ -7169,11 +6385,6 @@
                           "uniqueID": "id-1744",
                           "ioValues": [
                             {
-                              "name": "xDist",
-                              "ioValue": -28,
-                              "currentEquation": "- Leg_width"
-                            },
-                            {
                               "name": "yDist",
                               "ioValue": 0
                             },
@@ -7189,11 +6400,6 @@
                           "y": 0.6021739130434782,
                           "uniqueID": "id-1745",
                           "ioValues": [
-                            {
-                              "name": "xDist",
-                              "ioValue": 28,
-                              "currentEquation": "Leg_width"
-                            },
                             {
                               "name": "yDist",
                               "ioValue": 0
@@ -7222,8 +6428,8 @@
                         },
                         {
                           "atomType": "Input",
-                          "x": 0.031349999999999996,
-                          "y": 0.19,
+                          "x": 0.0264,
+                          "y": 0.16,
                           "uniqueID": "id-1747",
                           "name": "Leg_width",
                           "type": "number"
@@ -7238,10 +6444,6 @@
                             {
                               "name": "Angle",
                               "ioValue": 20
-                            },
-                            {
-                              "name": "Height",
-                              "ioValue": 28
                             },
                             {
                               "name": "Thickness",
@@ -7263,10 +6465,6 @@
                               "uniqueID": "id-1750",
                               "ioValues": [
                                 {
-                                  "name": "height",
-                                  "ioValue": 28
-                                },
-                                {
                                   "name": "thickness",
                                   "ioValue": 10
                                 },
@@ -7280,24 +6478,24 @@
                             },
                             {
                               "atomType": "Input",
-                              "x": 0.031349999999999996,
-                              "y": 0.19,
+                              "x": 0.0264,
+                              "y": 0.16,
                               "uniqueID": "id-1751",
                               "name": "Angle",
                               "type": "number"
                             },
                             {
                               "atomType": "Input",
-                              "x": 0.031349999999999996,
-                              "y": 0.304,
+                              "x": 0.0264,
+                              "y": 0.256,
                               "uniqueID": "id-1752",
                               "name": "Height",
                               "type": "number"
                             },
                             {
                               "atomType": "Input",
-                              "x": 0.031349999999999996,
-                              "y": 0.418,
+                              "x": 0.0264,
+                              "y": 0.352,
                               "uniqueID": "id-1753",
                               "name": "Thickness",
                               "type": "number"
