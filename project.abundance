@@ -2,11 +2,15 @@
   "atomType": "Molecule",
   "x": 0,
   "y": 0,
-  "uniqueID": "01e278b0-4910-484c-bdc0-8458b001eb66",
-  "name": "A_really_really_really_really_really_really_really_really_longname",
+  "uniqueID": "id-410",
+  "name": "MagWine-Side-Table",
   "ioValues": [
     {
-      "name": "wood",
+      "name": "Full_width",
+      "ioValue": 10
+    },
+    {
+      "name": "ply_thick",
       "ioValue": 10
     }
   ],
@@ -14,85 +18,331 @@
   "allAtoms": [
     {
       "atomType": "Output",
-      "x": 0.98,
+      "x": 0.9749328558639212,
       "y": 0.5,
-      "uniqueID": "d3e25771-0f7c-4215-a122-f7c1045f96fc"
+      "uniqueID": "id-411"
     },
     {
-      "atomType": "Rectangle",
-      "x": 0.20266666666666666,
-      "y": 0.3595166163141994,
-      "uniqueID": "1b9e4495-2958-490f-b191-17e032057477",
+      "atomType": "Move",
+      "x": 0.4463276836158192,
+      "y": 0.2267080745341615,
+      "uniqueID": "id-1216",
       "ioValues": [
         {
-          "name": "x length",
-          "ioValue": 20
+          "name": "xDist",
+          "ioValue": 0
         },
         {
-          "name": "y length",
-          "ioValue": 50
+          "name": "yDist",
+          "ioValue": 14.625,
+          "currentEquation": "Full_width/2 - ply_thick/2"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
         }
       ]
     },
     {
-      "atomType": "Extrude",
-      "x": 0.33599999999999997,
-      "y": 0.7885196374622356,
-      "uniqueID": "id-130",
+      "atomType": "Assembly",
+      "x": 0.5524137931034483,
+      "y": 0.26436781609195403,
+      "uniqueID": "id-1389",
+      "ioValues": []
+    },
+    {
+      "atomType": "Move",
+      "x": 0.41081517352703795,
+      "y": 0.406832298136646,
+      "uniqueID": "id-1393",
       "ioValues": [
         {
-          "name": "height",
-          "ioValue": 5
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": -14.625,
+          "currentEquation": "- Full_width/2 +  ply_thick/2"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
         }
       ]
     },
     {
       "atomType": "Input",
-      "x": 0.031349999999999996,
-      "y": 0.19,
-      "uniqueID": "id-361",
-      "name": "wood",
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
+      "uniqueID": "id-1400",
+      "name": "Full_width",
       "type": "number"
     },
     {
-      "atomType": "Rectangle",
-      "x": 0.212,
-      "y": 0.6918429003021148,
-      "uniqueID": "id-858",
+      "atomType": "Assembly",
+      "x": 0.7416107382550335,
+      "y": 0.3726708074534162,
+      "uniqueID": "id-1971",
+      "ioValues": []
+    },
+    {
+      "atomType": "Move",
+      "x": 0.6046979865771812,
+      "y": 0.6149068322981366,
+      "uniqueID": "id-1976",
       "ioValues": [
         {
-          "name": "x length",
-          "ioValue": 20
+          "name": "xDist",
+          "ioValue": 0
         },
         {
-          "name": "y length",
-          "ioValue": 5
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 9
         }
       ]
     },
     {
-      "atomType": "Extrude",
-      "x": 0.4262152777777778,
-      "y": 0.38368580060422963,
-      "uniqueID": "id-903",
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.24615384615384617,
+      "uniqueID": "id-1993",
+      "name": "ply_thick",
+      "type": "number"
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.6838926174496645,
+      "y": 0.8012422360248447,
+      "uniqueID": "id-5960",
+      "name": "Cut Layout",
       "ioValues": [
         {
-          "name": "height",
-          "ioValue": 10
+          "name": "Sheet Width",
+          "ioValue": 96
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 48
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 0.4
         }
+      ],
+      "placements": [
+        [
+          {
+            "id": 8,
+            "rotate": 180,
+            "translate": {
+              "x": 7.5249999999999995,
+              "y": 15.399999999999999
+            }
+          },
+          {
+            "id": 15,
+            "rotate": 270,
+            "translate": {
+              "x": 30.449999999999996,
+              "y": 9.399999999999997
+            }
+          },
+          {
+            "id": 14,
+            "rotate": 0,
+            "translate": {
+              "x": 49.75,
+              "y": 15.400000024949238
+            }
+          },
+          {
+            "id": 11,
+            "rotate": 210,
+            "translate": {
+              "x": 69.43149405605868,
+              "y": 17.520114691920277
+            }
+          },
+          {
+            "id": 6,
+            "rotate": 300,
+            "translate": {
+              "x": 76.61888690228778,
+              "y": 32.845070309829524
+            }
+          },
+          {
+            "id": 9,
+            "rotate": 270,
+            "translate": {
+              "x": 15.400000024949238,
+              "y": 39.675
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 0,
+            "translate": {
+              "x": 46.929518387973424,
+              "y": 35.92744072637618
+            }
+          },
+          {
+            "id": 13,
+            "rotate": 90,
+            "translate": {
+              "x": 29.69999999999999,
+              "y": 27.540497899999995
+            }
+          },
+          {
+            "id": 17,
+            "rotate": 300,
+            "translate": {
+              "x": 58.57779817953438,
+              "y": 12.609589891116398
+            }
+          },
+          {
+            "id": 5,
+            "rotate": 270,
+            "translate": {
+              "x": 88.08965941320629,
+              "y": 30.28311000803179
+            }
+          },
+          {
+            "id": 10,
+            "rotate": 180,
+            "translate": {
+              "x": 92.80087354273043,
+              "y": 30.28311000795319
+            }
+          },
+          {
+            "id": 20,
+            "rotate": 270,
+            "translate": {
+              "x": 79.65389353268912,
+              "y": 39.299851700000005
+            }
+          }
+        ],
+        [
+          {
+            "id": 1,
+            "rotate": 270,
+            "translate": {
+              "x": 11.900000000000011,
+              "y": 15.184151380305188
+            }
+          },
+          {
+            "id": 12,
+            "rotate": 240,
+            "translate": {
+              "x": 40.49722265020256,
+              "y": 14.48245594874822
+            }
+          },
+          {
+            "id": 0,
+            "rotate": 300,
+            "translate": {
+              "x": 62.266165521344895,
+              "y": 29.54245214659298
+            }
+          },
+          {
+            "id": 7,
+            "rotate": 0,
+            "translate": {
+              "x": 18.025686298219433,
+              "y": 32.951854748821866
+            }
+          },
+          {
+            "id": 4,
+            "rotate": 0,
+            "translate": {
+              "x": 18.988773997995317,
+              "y": 40.95205289280742
+            }
+          },
+          {
+            "id": 18,
+            "rotate": 300,
+            "translate": {
+              "x": 38.15595261107825,
+              "y": 40.33362625997115
+            }
+          },
+          {
+            "id": 3,
+            "rotate": 270,
+            "translate": {
+              "x": 78.46887780506441,
+              "y": 30.283110012026576
+            }
+          },
+          {
+            "id": 16,
+            "rotate": 90,
+            "translate": {
+              "x": 67.9729079,
+              "y": 7.900148300000001
+            }
+          },
+          {
+            "id": 19,
+            "rotate": 300,
+            "translate": {
+              "x": 38.17954674973149,
+              "y": 30.159450310204605
+            }
+          }
+        ]
       ]
     },
     {
-      "atomType": "Code",
-      "x": 0.6621338912133892,
-      "y": 0.6858006042296072,
-      "uniqueID": "id-907",
-      "codeVersion": 1,
-      "code": "Inputs = [\n       {inputName: \"A\", type: \"geometry\", defaultValue: null},\n        {inputName: \"B\", type: \"geometry\", defaultValue: null}\n      ]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n\n      let boundsA = await GetBounds(A);\n      let A_minZ = boundsA.min[2];\n\n      let B_maxZ = 0;\n      if(B){\n          let boundsB = await GetBounds(B);\n          console.log(\"Bounding Box B:  \");\n          console.log(boundsB);\n          B_maxZ  = boundsB.max[2];\n      }\n\n     let translationZ = B_maxZ - A_minZ;\n     \n      let movedOutput = await Move(A, 0, 0, translationZ);\n\n      return movedOutput;"
+      "atomType": "Gcode",
+      "x": 0.8248322147651006,
+      "y": 0.7701863354037267,
+      "uniqueID": "id-5966",
+      "ioValues": [
+        {
+          "name": "Tool Size",
+          "ioValue": 0.25
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "MagWine-Side-Table",
+          "currentEquation": "MagWine-Side-Table"
+        }
+      ],
+      "partName": "MagWine-Side-Table",
+      "sortDirection": "Left"
     }
   ],
   "allConnectors": [],
-  "unitsKey": "MM",
+  "unitsKey": "Inches",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
 }
